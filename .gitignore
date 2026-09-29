@@ -1,0 +1,22 @@
+# Not for any public repo: YMCA of the USA copyrighted toolkit content
+reference/
+curriculum/*
+!curriculum/local.json
+**/Resources/curriculum/
+inputs/*
+!inputs/README.md
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Xcode and Swift
+DerivedData/
+build/
+.build/
+.swiftpm/
+xcuserdata/
+*.xcuserstate

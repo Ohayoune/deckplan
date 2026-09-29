@@ -1,0 +1,290 @@
+[
+  {
+    "aliases": [
+      "pool noodle",
+      "pool noodles",
+      "noodle",
+      "noodles"
+    ],
+    "id": "pool-noodle",
+    "kind": "item",
+    "name": "Pool noodle",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "kickboards"
+    ],
+    "id": "kickboard",
+    "kind": "item",
+    "name": "Kickboard",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "hoops",
+      "Hula-Hoop",
+      "Hula-Hoops",
+      "large plastic hoops"
+    ],
+    "id": "hoop",
+    "kind": "item",
+    "name": "Hoop",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "rescue tubes"
+    ],
+    "id": "rescue-tube",
+    "kind": "item",
+    "name": "Rescue tube",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "toy",
+      "toys",
+      "small toy",
+      "sinking toy",
+      "sinking toys",
+      "floating toy",
+      "floating toys",
+      "other objects"
+    ],
+    "id": "small-toys",
+    "kind": "item",
+    "name": "Small toys",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "balls"
+    ],
+    "id": "ball",
+    "kind": "item",
+    "name": "Ball",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "ropes",
+      "tubing"
+    ],
+    "id": "rope",
+    "kind": "item",
+    "name": "Rope",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "pull buoys"
+    ],
+    "id": "pull-buoy",
+    "kind": "item",
+    "name": "Pull buoy",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "flippers"
+    ],
+    "id": "fins",
+    "kind": "item",
+    "name": "Fins",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "float belts"
+    ],
+    "id": "float-belt",
+    "kind": "item",
+    "name": "Float belt",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "hand paddle"
+    ],
+    "id": "hand-paddles",
+    "kind": "item",
+    "name": "Hand paddles",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "dive ring"
+    ],
+    "id": "dive-rings",
+    "kind": "item",
+    "name": "Dive rings",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "barbells",
+      "short barbell"
+    ],
+    "id": "barbell",
+    "kind": "item",
+    "name": "Barbell",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "life jackets"
+    ],
+    "id": "life-jacket",
+    "kind": "item",
+    "name": "Life jacket",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "small tubes"
+    ],
+    "id": "small-tube",
+    "kind": "item",
+    "name": "Small tube",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "mat",
+      "mats",
+      "floating mats",
+      "magic carpet"
+    ],
+    "id": "mat",
+    "kind": "item",
+    "name": "Floating mat",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "buckets"
+    ],
+    "id": "bucket",
+    "kind": "item",
+    "name": "Bucket",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "straw",
+      "drinking straws",
+      "bubble wands",
+      "bubble pipes"
+    ],
+    "id": "straws",
+    "kind": "item",
+    "name": "Straws",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "stopwatches"
+    ],
+    "id": "stopwatch",
+    "kind": "item",
+    "name": "Stopwatch",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "poles"
+    ],
+    "id": "pole",
+    "kind": "item",
+    "name": "Pole",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "penny"
+    ],
+    "id": "pennies",
+    "kind": "item",
+    "name": "Pennies",
+    "source": "ymca"
+  },
+  {
+    "aliases": [],
+    "id": "goggles",
+    "kind": "item",
+    "name": "Goggles",
+    "source": "ymca"
+  },
+  {
+    "aliases": [],
+    "id": "sunglasses",
+    "kind": "item",
+    "name": "Sunglasses",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "newspaper page",
+      "newspapers"
+    ],
+    "id": "newspaper",
+    "kind": "item",
+    "name": "Newspaper",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "balloons"
+    ],
+    "id": "balloon",
+    "kind": "item",
+    "name": "Balloon",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "watering cans"
+    ],
+    "id": "watering-can",
+    "kind": "item",
+    "name": "Watering can",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "T-shirts"
+    ],
+    "id": "t-shirt",
+    "kind": "item",
+    "name": "T-shirt",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "whistles",
+      "large plastic whistles"
+    ],
+    "id": "whistle",
+    "kind": "item",
+    "name": "Whistle",
+    "source": "ymca"
+  },
+  {
+    "aliases": [
+      "flotation devices"
+    ],
+    "anyOf": [
+      "kickboard",
+      "pool-noodle",
+      "barbell",
+      "float-belt",
+      "life-jacket",
+      "pull-buoy"
+    ],
+    "id": "flotation-device",
+    "kind": "group",
+    "name": "Flotation device",
+    "source": "ymca"
+  }
+]

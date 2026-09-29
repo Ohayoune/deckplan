@@ -1,0 +1,911 @@
+[
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Say hello and your name.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "hello-game",
+    "name": "Hello Game",
+    "skillIds": [],
+    "source": "ymca",
+    "submerges": false,
+    "tags": []
+  },
+  {
+    "ages": [
+      "P",
+      "S"
+    ],
+    "description": "Sing everyone's name.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "name-song",
+    "name": "Name Song",
+    "skillIds": [],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "song"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Practise skill one with a partner, then alone.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "one-drill",
+    "name": "One Drill",
+    "skillIds": [
+      "1.skill-one",
+      "2.skill-one",
+      "3.skill-one",
+      "4.skill-one",
+      "5.skill-one",
+      "6.skill-one",
+      "A.skill-one",
+      "B.skill-one"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "drill"
+    ]
+  },
+  {
+    "ages": [
+      "S",
+      "A"
+    ],
+    "description": "A relay race that repeats skill one across the pool.",
+    "equipment": [
+      [
+        "kickboard"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "one-relay",
+    "name": "One Relay",
+    "skillIds": [
+      "1.skill-one",
+      "2.skill-one",
+      "3.skill-one",
+      "4.skill-one",
+      "5.skill-one",
+      "6.skill-one",
+      "A.skill-one",
+      "B.skill-one"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Bob up and down five times.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "bob-game",
+    "name": "Bob Game",
+    "skillIds": [
+      "1.skill-one"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": [
+      "bob"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Practise skill two with a partner, then alone.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "two-drill",
+    "name": "Two Drill",
+    "skillIds": [
+      "1.skill-two",
+      "2.skill-two",
+      "3.skill-two",
+      "4.skill-two",
+      "5.skill-two",
+      "6.skill-two",
+      "A.skill-two",
+      "B.skill-two"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "drill"
+    ]
+  },
+  {
+    "ages": [
+      "S",
+      "A"
+    ],
+    "description": "A relay race that repeats skill two across the pool.",
+    "equipment": [
+      [
+        "kickboard"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "two-relay",
+    "name": "Two Relay",
+    "skillIds": [
+      "1.skill-two",
+      "2.skill-two",
+      "3.skill-two",
+      "4.skill-two",
+      "5.skill-two",
+      "6.skill-two",
+      "A.skill-two",
+      "B.skill-two"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Glide toward a toy on the bottom.",
+    "equipment": [
+      [
+        "small-toys"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "twin-game",
+    "name": "Twin Game",
+    "skillIds": [
+      "1.skill-two"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": []
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Practise skill three with a partner, then alone.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "three-drill",
+    "name": "Three Drill",
+    "skillIds": [
+      "1.skill-three",
+      "2.skill-three",
+      "3.skill-three",
+      "4.skill-three",
+      "5.skill-three",
+      "6.skill-three",
+      "A.skill-three",
+      "B.skill-three"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "drill"
+    ]
+  },
+  {
+    "ages": [
+      "S",
+      "A"
+    ],
+    "description": "A relay race that repeats skill three across the pool.",
+    "equipment": [
+      [
+        "kickboard"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "three-relay",
+    "name": "Three Relay",
+    "skillIds": [
+      "1.skill-three",
+      "2.skill-three",
+      "3.skill-three",
+      "4.skill-three",
+      "5.skill-three",
+      "6.skill-three",
+      "A.skill-three",
+      "B.skill-three"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Jump through a hoop held on the surface.",
+    "equipment": [
+      [
+        "hoop"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "circle-game",
+    "name": "Circle Game",
+    "skillIds": [
+      "1.skill-three"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": [
+      "jump"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "depths": [
+      "deep"
+    ],
+    "description": "Variation: dive through the hoop instead.",
+    "equipment": [
+      [
+        "hoop"
+      ]
+    ],
+    "equipmentOptional": [],
+    "headfirst": true,
+    "id": "circle-game-dive",
+    "name": "Circle Game",
+    "skillIds": [
+      "1.skill-three"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": [
+      "dive"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Everyone plays together in a circle.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "shared-game",
+    "name": "Shared Game",
+    "skillIds": [
+      "1.skill-three",
+      "1.skill-four",
+      "2.skill-three"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Practise skill four with a partner, then alone.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "four-drill",
+    "name": "Four Drill",
+    "skillIds": [
+      "1.skill-four",
+      "2.skill-four",
+      "3.skill-four",
+      "4.skill-four",
+      "5.skill-four",
+      "6.skill-four",
+      "A.skill-four",
+      "B.skill-four"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "drill"
+    ]
+  },
+  {
+    "ages": [
+      "S",
+      "A"
+    ],
+    "description": "A relay race that repeats skill four across the pool.",
+    "equipment": [
+      [
+        "kickboard"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "four-relay",
+    "name": "Four Relay",
+    "skillIds": [
+      "1.skill-four",
+      "2.skill-four",
+      "3.skill-four",
+      "4.skill-four",
+      "5.skill-four",
+      "6.skill-four",
+      "A.skill-four",
+      "B.skill-four"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Jump in and make a splash.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "splash-game",
+    "name": "Splash Game",
+    "skillIds": [
+      "1.skill-four",
+      "2.skill-four",
+      "3.skill-four"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": [
+      "jump"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Practise skill five with a partner, then alone.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "five-drill",
+    "name": "Five Drill",
+    "skillIds": [
+      "1.skill-five",
+      "2.skill-five",
+      "3.skill-five",
+      "4.skill-five",
+      "5.skill-five",
+      "6.skill-five",
+      "A.skill-five",
+      "B.skill-five"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "drill"
+    ]
+  },
+  {
+    "ages": [
+      "S",
+      "A"
+    ],
+    "description": "A relay race that repeats skill five across the pool.",
+    "equipment": [
+      [
+        "kickboard"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "five-relay",
+    "name": "Five Relay",
+    "skillIds": [
+      "1.skill-five",
+      "2.skill-five",
+      "3.skill-five",
+      "4.skill-five",
+      "5.skill-five",
+      "6.skill-five",
+      "A.skill-five",
+      "B.skill-five"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S"
+    ],
+    "description": "Fetch toys from the bottom and set them on a kickboard.",
+    "equipment": [
+      [
+        "kickboard"
+      ],
+      [
+        "small-toys"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "toy-hunt",
+    "name": "Toy Hunt",
+    "reachBottom": true,
+    "skillIds": [
+      "1.skill-five"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": []
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Practise skill six with a partner, then alone.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "six-drill",
+    "name": "Six Drill",
+    "skillIds": [
+      "1.skill-six",
+      "2.skill-six",
+      "3.skill-six",
+      "4.skill-six",
+      "5.skill-six",
+      "6.skill-six",
+      "A.skill-six",
+      "B.skill-six"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "drill"
+    ]
+  },
+  {
+    "ages": [
+      "S",
+      "A"
+    ],
+    "description": "A relay race that repeats skill six across the pool.",
+    "equipment": [
+      [
+        "kickboard"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "six-relay",
+    "name": "Six Relay",
+    "skillIds": [
+      "1.skill-six",
+      "2.skill-six",
+      "3.skill-six",
+      "4.skill-six",
+      "5.skill-six",
+      "6.skill-six",
+      "A.skill-six",
+      "B.skill-six"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "depths": [
+      "medium",
+      "deep"
+    ],
+    "description": "Jump into deep water and swim back to the wall.",
+    "equipment": [
+      [
+        "hoop"
+      ]
+    ],
+    "equipmentOptional": [
+      "pool-noodle"
+    ],
+    "id": "deep-game",
+    "name": "Deep Game",
+    "skillIds": [
+      "1.skill-six"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": [
+      "deep",
+      "jump"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Leap through a floating hoop. Variation: go through it head first.",
+    "equipment": [
+      [
+        "hoop"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "hoop-leap",
+    "name": "Hoop Leap",
+    "skillIds": [
+      "1.skill-six",
+      "2.skill-six"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": [
+      "jump"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "depths": [
+      "deep"
+    ],
+    "description": "Leap through a floating hoop. Variation: go through it head first.",
+    "equipment": [
+      [
+        "hoop"
+      ]
+    ],
+    "equipmentOptional": [],
+    "headfirst": true,
+    "id": "hoop-leap-dive",
+    "name": "Hoop Leap",
+    "skillIds": [
+      "1.skill-six",
+      "2.skill-six"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": [
+      "dive"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Practise skill seven with a partner, then alone.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "seven-drill",
+    "name": "Seven Drill",
+    "skillIds": [
+      "1.skill-seven",
+      "2.skill-seven",
+      "3.skill-seven",
+      "4.skill-seven",
+      "5.skill-seven",
+      "6.skill-seven",
+      "A.skill-seven",
+      "B.skill-seven"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "drill"
+    ]
+  },
+  {
+    "ages": [
+      "S",
+      "A"
+    ],
+    "description": "A relay race that repeats skill seven across the pool.",
+    "equipment": [
+      [
+        "kickboard"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "seven-relay",
+    "name": "Seven Relay",
+    "skillIds": [
+      "1.skill-seven",
+      "2.skill-seven",
+      "3.skill-seven",
+      "4.skill-seven",
+      "5.skill-seven",
+      "6.skill-seven",
+      "A.skill-seven",
+      "B.skill-seven"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "ages": [],
+    "depths": [
+      "shallow"
+    ],
+    "description": "Walk across where everyone can stand.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "flotationOption": true,
+    "id": "wade-game",
+    "name": "Wade Game",
+    "skillIds": [
+      "1.skill-seven"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": []
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Practise skill eight left with a partner, then alone.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "eight-left-drill",
+    "name": "Eight Left Drill",
+    "skillIds": [
+      "1.skill-eight-left",
+      "2.skill-eight-left",
+      "3.skill-eight-left",
+      "4.skill-eight-left",
+      "5.skill-eight-left",
+      "6.skill-eight-left",
+      "A.skill-eight-left",
+      "B.skill-eight-left"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "drill"
+    ]
+  },
+  {
+    "ages": [
+      "S",
+      "A"
+    ],
+    "description": "A relay race that repeats skill eight left across the pool.",
+    "equipment": [
+      [
+        "kickboard"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "eight-left-relay",
+    "name": "Eight Left Relay",
+    "skillIds": [
+      "1.skill-eight-left",
+      "2.skill-eight-left",
+      "3.skill-eight-left",
+      "4.skill-eight-left",
+      "5.skill-eight-left",
+      "6.skill-eight-left",
+      "A.skill-eight-left",
+      "B.skill-eight-left"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Glide on the back toward a spot on the ceiling.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "twin-game-1",
+    "name": "Twin Game",
+    "skillIds": [
+      "1.skill-eight-left"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": []
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Dip the chin, then the nose.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "dip-game",
+    "name": "Dip Game",
+    "skillIds": [
+      "2.skill-one"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": []
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Race holding a noodle or a rescue tube.",
+    "equipment": [
+      [
+        "pool-noodle",
+        "rescue-tube"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "noodle-race",
+    "name": "Noodle Race",
+    "skillIds": [
+      "2.skill-two"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": []
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Float while holding a flotation device.",
+    "equipment": [
+      [
+        "flotation-device"
+      ]
+    ],
+    "equipmentOptional": [
+      "watering-can"
+    ],
+    "id": "float-game",
+    "name": "Float Game",
+    "skillIds": [
+      "3.skill-five"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": []
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "depths": [
+      "deep"
+    ],
+    "description": "Dive in and make a splash.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "headfirst": true,
+    "id": "splash-game-4",
+    "name": "Splash Game",
+    "skillIds": [
+      "4.skill-four",
+      "5.skill-four",
+      "6.skill-four"
+    ],
+    "source": "ymca",
+    "submerges": true,
+    "tags": [
+      "dive"
+    ]
+  },
+  {
+    "ages": [
+      "P",
+      "S",
+      "A"
+    ],
+    "description": "Practise skill eight right with a partner, then alone.",
+    "equipment": [],
+    "equipmentOptional": [],
+    "id": "eight-right-drill",
+    "name": "Eight Right Drill",
+    "skillIds": [
+      "5.skill-eight-right",
+      "6.skill-eight-right"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "drill"
+    ]
+  },
+  {
+    "ages": [
+      "S",
+      "A"
+    ],
+    "description": "A relay race that repeats skill eight right across the pool.",
+    "equipment": [
+      [
+        "kickboard"
+      ]
+    ],
+    "equipmentOptional": [],
+    "id": "eight-right-relay",
+    "name": "Eight Right Relay",
+    "skillIds": [
+      "5.skill-eight-right",
+      "6.skill-eight-right"
+    ],
+    "source": "ymca",
+    "submerges": false,
+    "tags": [
+      "game"
+    ]
+  }
+]

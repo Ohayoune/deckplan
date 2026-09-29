@@ -1,0 +1,37 @@
+{
+  "activities": [
+    {
+      "ages": [
+        "S",
+        "A"
+      ],
+      "description": "A relay made up at our own pool.",
+      "equipment": [
+        [
+          "foam-dice"
+        ]
+      ],
+      "equipmentOptional": [],
+      "id": "local-relay",
+      "name": "Local Relay",
+      "skillIds": [
+        "1.skill-one"
+      ],
+      "source": "local",
+      "submerges": false,
+      "tags": [
+        "game"
+      ]
+    }
+  ],
+  "equipment": [
+    {
+      "aliases": [],
+      "id": "foam-dice",
+      "kind": "item",
+      "name": "Foam dice",
+      "source": "local"
+    }
+  ],
+  "format": "local/1"
+}

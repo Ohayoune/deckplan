@@ -1,0 +1,2325 @@
+{
+  "format": "curriculum/1",
+  "version": "sample-2026.09",
+  "note": "MADE-UP sample for the tests and the demo: one stage in the compact single-stage form of the curriculum files (CURRICULUM_FORMAT.md §3). stage holds the stage's own fields; the top level holds its skills, greetingActivityIds, topics, lessonTemplates and trackerRows beside activities, equipment and safety. Every name and sentence is invented; none of it is YMCA text.",
+  "stage": {
+    "id": "2",
+    "name": "Moving Along",
+    "group": "Beginners",
+    "ageGroups": [
+      "preschool",
+      "schoolAge",
+      "teen",
+      "adult"
+    ],
+    "lessonMinutes": 30,
+    "warmUpSkill": "2.submerge",
+    "wrapUpSkill": "2.jump-and-return",
+    "milestones": [
+      "Going under, floating and gliding with less help",
+      "Moving through the water a little farther each week",
+      "Knowing what to do when someone needs help"
+    ]
+  },
+  "skills": [
+    {
+      "id": "2.submerge",
+      "name": "Submerge",
+      "order": 1,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "1.submerge.1",
+        "1.submerge.2",
+        "1.submerge.3",
+        "1.submerge.4"
+      ],
+      "steps": [
+        {
+          "id": "2.submerge.1",
+          "n": 1,
+          "name": "Submerge on your own, farther, near the wall",
+          "description": "Submerge on your own, farther, near the wall. Cheer each try.",
+          "nearWall": true,
+          "submerges": true
+        },
+        {
+          "id": "2.submerge.2",
+          "n": 2,
+          "name": "Submerge with a helper close by, near the wall, 3 seconds",
+          "description": "Submerge with a helper close by, near the wall, 3 seconds. Rest between tries.",
+          "measure": {
+            "kind": "time",
+            "unit": "s",
+            "value": 3
+          },
+          "nearWall": true,
+          "submerges": true
+        },
+        {
+          "id": "2.submerge.3",
+          "n": 3,
+          "name": "Submerge on your own",
+          "description": "Submerge on your own. Go slowly and stay relaxed.",
+          "submerges": true
+        }
+      ],
+      "benchmarkStepId": "2.submerge.3",
+      "advancedStepIds": [
+        "3.submerge.1",
+        "3.submerge.2"
+      ],
+      "activityIds": [
+        "rainbow-treasure-hunt",
+        "moonbeam-hide-and-seek",
+        "manatee-bubble-party"
+      ]
+    },
+    {
+      "id": "2.front-glide",
+      "name": "Front Glide",
+      "order": 2,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "1.front-glide.1",
+        "1.front-glide.2",
+        "1.front-glide.3",
+        "1.front-glide.4"
+      ],
+      "steps": [
+        {
+          "id": "2.front-glide.1",
+          "n": 1,
+          "name": "Front glide on your own, farther, 5 feet",
+          "description": "Front glide on your own, farther, 5 feet. A helper stays within reach.",
+          "measure": {
+            "kind": "distance",
+            "unit": "ft",
+            "value": 5
+          },
+          "submerges": true,
+          "depths": [
+            "shallow"
+          ]
+        },
+        {
+          "id": "2.front-glide.2",
+          "n": 2,
+          "name": "Front glide with a helper close by",
+          "description": "Front glide with a helper close by. Rest between tries.",
+          "submerges": true,
+          "depths": [
+            "shallow"
+          ]
+        },
+        {
+          "id": "2.front-glide.3",
+          "n": 3,
+          "name": "Front glide on your own, using a pool noodle, 10 feet",
+          "description": "Front glide on your own, using a pool noodle, 10 feet. Go slowly and stay relaxed.",
+          "measure": {
+            "kind": "distance",
+            "unit": "ft",
+            "value": 10
+          },
+          "submerges": true,
+          "equipment": [
+            [
+              "pool-noodle"
+            ]
+          ],
+          "depths": [
+            "shallow"
+          ]
+        },
+        {
+          "id": "2.front-glide.4",
+          "n": 4,
+          "name": "Front glide on your own, farther, 10 feet",
+          "description": "Front glide on your own, farther, 10 feet. Cheer each try.",
+          "measure": {
+            "kind": "distance",
+            "preschoolValue": 5,
+            "unit": "ft",
+            "value": 10
+          },
+          "submerges": true
+        }
+      ],
+      "benchmarkStepId": "2.front-glide.4",
+      "advancedStepIds": [
+        "3.swim-on-front.1",
+        "3.swim-on-front.2",
+        "3.swim-on-front.3",
+        "3.swim-on-front.4"
+      ],
+      "activityIds": [
+        "manatee-glide",
+        "dragon-launch",
+        "meteor-torpedo"
+      ]
+    },
+    {
+      "id": "2.water-exit",
+      "name": "Water Exit",
+      "order": 3,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "1.water-exit.1",
+        "1.water-exit.2"
+      ],
+      "steps": [
+        {
+          "id": "2.water-exit.1",
+          "n": 1,
+          "name": "Water exit with a helper close by, near the wall",
+          "description": "Water exit with a helper close by, near the wall. A helper stays within reach.",
+          "nearWall": true
+        },
+        {
+          "id": "2.water-exit.2",
+          "n": 2,
+          "name": "Water exit on your own, near the wall",
+          "description": "Water exit on your own, near the wall. Rest between tries.",
+          "nearWall": true
+        }
+      ],
+      "benchmarkStepId": "2.water-exit.2",
+      "advancedStepIds": [
+        "3.water-exit.1",
+        "3.water-exit.2"
+      ],
+      "activityIds": [
+        "kangaroo-step-out",
+        "sunflower-home-base",
+        "iceberg-climb"
+      ]
+    },
+    {
+      "id": "2.jump-and-return",
+      "name": "Jump and Return",
+      "order": 4,
+      "isBenchmarkSequence": true,
+      "prerequisiteStepIds": [
+        "1.jump-and-return.1",
+        "1.jump-and-return.2",
+        "1.jump-and-return.3",
+        "1.jump-and-return.4"
+      ],
+      "steps": [
+        {
+          "id": "2.jump-and-return.1",
+          "n": 1,
+          "name": "Jump and return on your own, farther",
+          "description": "Jump and return on your own, farther. A helper stays within reach.",
+          "submerges": true
+        },
+        {
+          "id": "2.jump-and-return.2",
+          "n": 2,
+          "name": "Jump and return on your own",
+          "description": "Jump and return on your own. Rest between tries.",
+          "submerges": true,
+          "reachBottom": true
+        }
+      ],
+      "benchmarkStepId": "2.jump-and-return.2",
+      "advancedStepIds": [
+        "3.jump-swim-turn-swim-grab.1",
+        "3.jump-swim-turn-swim-grab.2",
+        "3.jump-swim-turn-swim-grab.3"
+      ],
+      "activityIds": [
+        "otter-home-base",
+        "beaver-climb",
+        "lantern-jump"
+      ]
+    },
+    {
+      "id": "2.back-float",
+      "name": "Back Float",
+      "order": 5,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "1.back-float.1",
+        "1.back-float.2",
+        "1.back-float.3",
+        "1.back-float.4"
+      ],
+      "steps": [
+        {
+          "id": "2.back-float.1",
+          "n": 1,
+          "name": "Back float on your own, farther, 10 seconds",
+          "description": "Back float on your own, farther, 10 seconds. A helper stays within reach.",
+          "measure": {
+            "kind": "time",
+            "unit": "s",
+            "value": 10
+          }
+        },
+        {
+          "id": "2.back-float.2",
+          "n": 2,
+          "name": "Back float on your own, 20 seconds",
+          "description": "Back float on your own, 20 seconds. Rest between tries.",
+          "measure": {
+            "kind": "time",
+            "preschoolValue": 10,
+            "unit": "s",
+            "value": 20
+          }
+        }
+      ],
+      "benchmarkStepId": "2.back-float.2",
+      "advancedStepIds": [],
+      "activityIds": [
+        "pancake-float",
+        "popcorn-drift",
+        "pirate-drift"
+      ]
+    },
+    {
+      "id": "2.roll",
+      "name": "Roll",
+      "order": 6,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "1.roll.1"
+      ],
+      "steps": [
+        {
+          "id": "2.roll.1",
+          "n": 1,
+          "name": "Roll on your own",
+          "description": "Roll on your own. A helper stays within reach.",
+          "submerges": true
+        },
+        {
+          "id": "2.roll.2",
+          "n": 2,
+          "name": "Roll on your own, both ways",
+          "description": "Water exit on your own, near the wall. Rest between tries.",
+          "submerges": true
+        }
+      ],
+      "benchmarkStepId": "2.roll.2",
+      "advancedStepIds": [
+        "3.roll.1"
+      ],
+      "activityIds": [
+        "dragon-roll",
+        "narwhal-journey",
+        "meteor-flip",
+        "pancake-float"
+      ]
+    },
+    {
+      "id": "2.front-float",
+      "name": "Front Float",
+      "order": 7,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "1.front-float.1",
+        "1.front-float.2",
+        "1.front-float.3",
+        "1.front-float.4"
+      ],
+      "steps": [
+        {
+          "id": "2.front-float.1",
+          "n": 1,
+          "name": "Front float on your own, farther, 10 seconds",
+          "description": "Front float on your own, farther, 10 seconds. A helper stays within reach.",
+          "measure": {
+            "kind": "time",
+            "unit": "s",
+            "value": 10
+          },
+          "submerges": true
+        },
+        {
+          "id": "2.front-float.2",
+          "n": 2,
+          "name": "Front float on your own, 20 seconds",
+          "description": "Back float on your own, 20 seconds. Rest between tries.",
+          "measure": {
+            "kind": "time",
+            "preschoolValue": 10,
+            "unit": "s",
+            "value": 20
+          },
+          "submerges": true
+        }
+      ],
+      "benchmarkStepId": "2.front-float.2",
+      "advancedStepIds": [],
+      "activityIds": [
+        "koala-snooze",
+        "flamingo-nap",
+        "pelican-snooze"
+      ]
+    },
+    {
+      "id": "2.back-glide",
+      "name": "Back Glide",
+      "order": 8,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "1.back-glide.1",
+        "1.back-glide.2",
+        "1.back-glide.3"
+      ],
+      "steps": [
+        {
+          "id": "2.back-glide.1",
+          "n": 1,
+          "name": "Back glide on your own, 5 feet",
+          "description": "Back glide on your own, 5 feet. A helper stays within reach.",
+          "measure": {
+            "kind": "distance",
+            "unit": "ft",
+            "value": 5
+          },
+          "nearWall": true,
+          "depths": [
+            "shallow"
+          ]
+        },
+        {
+          "id": "2.back-glide.2",
+          "n": 2,
+          "name": "Back glide with a helper close by, near the wall",
+          "description": "Back glide with a helper close by, near the wall. Rest between tries.",
+          "nearWall": true,
+          "depths": [
+            "shallow"
+          ]
+        },
+        {
+          "id": "2.back-glide.3",
+          "n": 3,
+          "name": "Back glide on your own, near the wall, 5 feet",
+          "description": "Back glide on your own, 5 feet. Go slowly and stay relaxed.",
+          "measure": {
+            "kind": "distance",
+            "unit": "ft",
+            "value": 5
+          },
+          "nearWall": true,
+          "depths": [
+            "shallow"
+          ]
+        },
+        {
+          "id": "2.back-glide.4",
+          "n": 4,
+          "name": "Back glide on your own, farther, 10 feet",
+          "description": "Back glide on your own, farther, 10 feet. Cheer each try.",
+          "measure": {
+            "kind": "distance",
+            "preschoolValue": 5,
+            "unit": "ft",
+            "value": 10
+          }
+        }
+      ],
+      "benchmarkStepId": "2.back-glide.4",
+      "advancedStepIds": [
+        "3.swim-on-back.1",
+        "3.swim-on-back.2",
+        "3.swim-on-back.3"
+      ],
+      "activityIds": [
+        "lobster-slide",
+        "pancake-rocket-ride",
+        "koala-launch"
+      ]
+    },
+    {
+      "id": "2.tread-water",
+      "name": "Tread Water",
+      "order": 9,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [],
+      "steps": [
+        {
+          "id": "2.tread-water.1",
+          "n": 1,
+          "name": "Tread water with hands-on help, using a life jacket, 10 seconds",
+          "description": "Tread water with hands-on help, using a life jacket, 10 seconds. A helper stays within reach.",
+          "measure": {
+            "kind": "time",
+            "unit": "s",
+            "value": 10
+          },
+          "equipment": [
+            [
+              "life-jacket",
+              "float-belt"
+            ]
+          ],
+          "depths": [
+            "medium",
+            "deep"
+          ]
+        },
+        {
+          "id": "2.tread-water.2",
+          "n": 2,
+          "name": "Tread water with a helper close by, using a life jacket",
+          "description": "Tread water with a helper close by, using a life jacket. Rest between tries.",
+          "equipment": [
+            [
+              "life-jacket",
+              "float-belt"
+            ]
+          ],
+          "depths": [
+            "medium",
+            "deep"
+          ]
+        },
+        {
+          "id": "2.tread-water.3",
+          "n": 3,
+          "name": "Tread water on your own, using a life jacket",
+          "description": "Tread water on your own, using a life jacket. Go slowly and stay relaxed.",
+          "equipment": [
+            [
+              "life-jacket",
+              "float-belt"
+            ]
+          ],
+          "depths": [
+            "medium",
+            "deep"
+          ]
+        },
+        {
+          "id": "2.tread-water.4",
+          "n": 4,
+          "name": "Tread water on your own, farther, near the wall, 10 seconds",
+          "description": "Tread water on your own, farther, near the wall, 10 seconds. Cheer each try.",
+          "measure": {
+            "kind": "time",
+            "unit": "s",
+            "value": 10
+          },
+          "nearWall": true,
+          "submerges": true,
+          "depths": [
+            "medium",
+            "deep"
+          ]
+        }
+      ],
+      "benchmarkStepId": "2.tread-water.4",
+      "advancedStepIds": [
+        "3.tread-water.1",
+        "3.tread-water.2"
+      ],
+      "activityIds": [
+        "iceberg-bob",
+        "heron-lookout",
+        "submarine-periscope"
+      ]
+    },
+    {
+      "id": "2.swim-and-rest",
+      "name": "Swim and Rest",
+      "order": 10,
+      "isBenchmarkSequence": true,
+      "prerequisiteStepIds": [
+        "1.swim-and-rest.1"
+      ],
+      "steps": [
+        {
+          "id": "2.swim-and-rest.1",
+          "n": 1,
+          "name": "Swim and rest on your own, 5 yards",
+          "description": "Swim and rest on your own, 5 yards. A helper stays within reach.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 5
+          },
+          "submerges": true
+        }
+      ],
+      "benchmarkStepId": "2.swim-and-rest.1",
+      "advancedStepIds": [
+        "3.swim-and-rest.1"
+      ],
+      "activityIds": [
+        "canoe-trip",
+        "tugboat-swim",
+        "iceberg-trip"
+      ]
+    }
+  ],
+  "greetingActivityIds": [
+    "tugboat-hello",
+    "thunder-handshake",
+    "castle-hello",
+    "snowflake-welcome",
+    "sunflower-name-circle",
+    "pinwheel-welcome",
+    "heron-roll-call",
+    "submarine-handshake",
+    "puffin-name-circle",
+    "rocket-wave",
+    "jellybean-roll-call",
+    "dragon-handshake",
+    "meteor-hello"
+  ],
+  "activities": [
+    {
+      "id": "rainbow-treasure-hunt",
+      "name": "Rainbow Treasure Hunt",
+      "description": "A helper points to a spot on the bottom near the steps. Swimmers take one breath, look under at it, and come back up to say what they saw.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": []
+    },
+    {
+      "id": "moonbeam-hide-and-seek",
+      "name": "Moonbeam Hide and Seek",
+      "description": "Everyone joins the moonbeam crew: take one breath, put your face in, blow bubbles for a count of three, then come up and wave. Bring small toys.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "small-toys"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": []
+    },
+    {
+      "id": "manatee-bubble-party",
+      "name": "Manatee Bubble Party",
+      "description": "A helper points to a spot on the bottom near the steps. Swimmers take one breath, look under at it, and come back up to say what they saw.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": []
+    },
+    {
+      "id": "manatee-glide",
+      "name": "Manatee Glide",
+      "description": "Swimmers push off like a manatee leaving the dock and glide with arms stretched out toward a helper or the wall.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "glide"
+      ]
+    },
+    {
+      "id": "dragon-launch",
+      "name": "Dragon Launch",
+      "description": "A helper holds out their hands as a finish line. Swimmers glide toward them and try to reach them before they stand.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [
+        "kickboard"
+      ],
+      "submerges": true,
+      "tags": [
+        "glide"
+      ]
+    },
+    {
+      "id": "meteor-torpedo",
+      "name": "Meteor Torpedo",
+      "description": "Swimmers push off like a meteor leaving the dock and glide with arms stretched out toward a helper or the wall. Bring small toys.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "small-toys"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "glide"
+      ]
+    },
+    {
+      "id": "kangaroo-step-out",
+      "name": "Kangaroo Step Out",
+      "description": "Play Kangaroo Island: the deck is the island, and swimmers climb out to reach it and take a seat.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "sunflower-home-base",
+      "name": "Sunflower Home Base",
+      "description": "Hands on the edge, pull up, bring one knee onto the deck and stand. Everyone takes a turn while the group cheers. Bring small toys.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [
+        [
+          "small-toys"
+        ],
+        [
+          "kickboard"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "iceberg-climb",
+      "name": "Iceberg Climb",
+      "description": "Play Iceberg Island: the deck is the island, and swimmers climb out to reach it and take a seat.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "depths": [
+        "shallow"
+      ],
+      "submerges": false,
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "otter-home-base",
+      "name": "Otter Home Base",
+      "description": "Swimmers climb out at the wall like an otter coming ashore, then walk back to the steps. Bring a hoop.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [
+        [
+          "hoop"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "jump"
+      ]
+    },
+    {
+      "id": "beaver-climb",
+      "name": "Beaver Climb",
+      "description": "Hands on the edge, pull up, bring one knee onto the deck and stand. Everyone takes a turn while the group cheers.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "game",
+        "jump"
+      ]
+    },
+    {
+      "id": "lantern-jump",
+      "name": "Lantern Jump",
+      "description": "Put a lantern sticker on the wall. After each jump, swimmers turn around and touch it.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "reachBottom": true,
+      "tags": [
+        "jump"
+      ]
+    },
+    {
+      "id": "pancake-float",
+      "name": "Pancake Float",
+      "description": "Swimmers float like a sleepy pancake, arms and legs spread wide, while a helper counts slowly to ten. Bring a pool noodle or a rescue tube.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "pool-noodle",
+          "rescue-tube"
+        ]
+      ],
+      "equipmentOptional": [],
+      "depths": [
+        "shallow"
+      ],
+      "submerges": true,
+      "tags": [
+        "float",
+        "noodle"
+      ]
+    },
+    {
+      "id": "popcorn-drift",
+      "name": "Popcorn Drift",
+      "description": "Call out a shape; swimmers make it while floating, then stand up with control. Bring small toys.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [
+        [
+          "small-toys"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "float"
+      ]
+    },
+    {
+      "id": "pirate-drift",
+      "name": "Pirate Drift",
+      "description": "Call out a shape; swimmers make it while floating, then stand up with control.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "float",
+        "kick"
+      ]
+    },
+    {
+      "id": "dragon-roll",
+      "name": "Dragon Roll",
+      "description": "Swimmers start on their front and roll onto their back like a dragon turning over, then rest face up. Bring a pool noodle.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "pool-noodle"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "noodle"
+      ]
+    },
+    {
+      "id": "narwhal-journey",
+      "name": "Narwhal Journey",
+      "description": "Go on a narwhal voyage: swim, rest, swim again, and tell the group where you went.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [
+        "pool-noodle"
+      ],
+      "submerges": true,
+      "tags": [
+        "float",
+        "kick",
+        "noodle"
+      ]
+    },
+    {
+      "id": "meteor-flip",
+      "name": "Meteor Flip",
+      "description": "When the instructor claps, swimmers roll from back to front, then back again. Bring a hoop.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "hoop"
+        ]
+      ],
+      "equipmentOptional": [],
+      "depths": [
+        "shallow"
+      ],
+      "submerges": true,
+      "tags": [
+        "float"
+      ]
+    },
+    {
+      "id": "koala-snooze",
+      "name": "Koala Snooze",
+      "description": "Swimmers float like a sleepy koala, arms and legs spread wide, while a helper counts slowly to ten.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "float"
+      ]
+    },
+    {
+      "id": "flamingo-nap",
+      "name": "Flamingo Nap",
+      "description": "The water is a giant flamingo bed: swimmers lie back, relax their shoulders and listen for the signal to stand.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "depths": [
+        "shallow"
+      ],
+      "submerges": true,
+      "tags": [
+        "float"
+      ]
+    },
+    {
+      "id": "pelican-snooze",
+      "name": "Pelican Snooze",
+      "description": "Swimmers float like a sleepy pelican, arms and legs spread wide, while a helper counts slowly to ten.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [
+        "flotation-device"
+      ],
+      "depths": [
+        "shallow"
+      ],
+      "submerges": true,
+      "tags": [
+        "float"
+      ]
+    },
+    {
+      "id": "lobster-slide",
+      "name": "Lobster Slide",
+      "description": "Line up at the wall. At the count of three, each swimmer pushes and glides as far as they can, then stands up with control.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "glide"
+      ]
+    },
+    {
+      "id": "pancake-rocket-ride",
+      "name": "Pancake Rocket Ride",
+      "description": "A helper holds out their hands as a finish line. Swimmers glide toward them and try to reach them before they stand.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [
+        "kickboard"
+      ],
+      "submerges": false,
+      "tags": [
+        "glide"
+      ]
+    },
+    {
+      "id": "koala-launch",
+      "name": "Koala Launch",
+      "description": "A helper holds out their hands as a finish line. Swimmers glide toward them and try to reach them before they stand.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "glide"
+      ]
+    },
+    {
+      "id": "iceberg-bob",
+      "name": "Iceberg Bob",
+      "description": "Swimmers keep their heads up like an iceberg on lookout, moving arms and legs to stay in place. Bring a life jacket or a float belt.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "life-jacket",
+          "float-belt"
+        ]
+      ],
+      "equipmentOptional": [],
+      "depths": [
+        "medium",
+        "deep"
+      ],
+      "submerges": true,
+      "tags": [
+        "deep",
+        "kick"
+      ]
+    },
+    {
+      "id": "heron-lookout",
+      "name": "Heron Lookout",
+      "description": "Play Heron Periscope: tread water, look around, and name something you can see on the deck. Bring a rescue tube or a pool noodle.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "rescue-tube",
+          "pool-noodle"
+        ]
+      ],
+      "equipmentOptional": [
+        "flotation-device"
+      ],
+      "depths": [
+        "medium",
+        "deep"
+      ],
+      "submerges": false,
+      "tags": [
+        "deep",
+        "kick",
+        "noodle"
+      ]
+    },
+    {
+      "id": "submarine-periscope",
+      "name": "Submarine Periscope",
+      "description": "Swimmers pedal their legs slowly and sweep their hands while the group counts to ten.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [
+        "flotation-device"
+      ],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "canoe-trip",
+      "name": "Canoe Trip",
+      "description": "Swimmers move forward a short way, turn onto their back to rest like a canoe, then roll over and keep going. Bring a hoop.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "hoop"
+        ]
+      ],
+      "equipmentOptional": [],
+      "depths": [
+        "shallow"
+      ],
+      "submerges": true,
+      "tags": [
+        "glide"
+      ]
+    },
+    {
+      "id": "tugboat-swim",
+      "name": "Tugboat Swim",
+      "description": "Go on a tugboat voyage: swim, rest, swim again, and tell the group where you went.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "iceberg-trip",
+      "name": "Iceberg Trip",
+      "description": "Go on a iceberg voyage: swim, rest, swim again, and tell the group where you went.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": []
+    },
+    {
+      "id": "tugboat-hello",
+      "name": "Tugboat Hello",
+      "description": "Swimmers sit on the edge and say their name and their favourite tugboat.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "thunder-handshake",
+      "name": "Thunder Handshake",
+      "description": "Give each swimmer a thunder nickname for today and use it all lesson.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "castle-hello",
+      "name": "Castle Hello",
+      "description": "Swimmers sit on the edge and say their name and their favourite castle.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "snowflake-welcome",
+      "name": "Snowflake Welcome",
+      "description": "Go around the circle; each swimmer says hello and shares one thing about their day.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "sunflower-name-circle",
+      "name": "Sunflower Name Circle",
+      "description": "Give each swimmer a sunflower nickname for today and use it all lesson.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "pinwheel-welcome",
+      "name": "Pinwheel Welcome",
+      "description": "Go around the circle; each swimmer says hello and shares one thing about their day.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "game",
+        "song"
+      ]
+    },
+    {
+      "id": "heron-roll-call",
+      "name": "Heron Roll Call",
+      "description": "Go around the circle; each swimmer says hello and shares one thing about their day. Bring a ball.",
+      "ages": [],
+      "equipment": [
+        [
+          "ball"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "submarine-handshake",
+      "name": "Submarine Handshake",
+      "description": "Give each swimmer a submarine nickname for today and use it all lesson.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "puffin-name-circle",
+      "name": "Puffin Name Circle",
+      "description": "Give each swimmer a puffin nickname for today and use it all lesson.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "depths": [
+        "shallow"
+      ],
+      "submerges": true,
+      "tags": [
+        "song"
+      ]
+    },
+    {
+      "id": "rocket-wave",
+      "name": "Rocket Wave",
+      "description": "Swimmers sit on the edge and say their name and their favourite rocket.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "song"
+      ]
+    },
+    {
+      "id": "jellybean-roll-call",
+      "name": "Jellybean Roll Call",
+      "description": "Go around the circle; each swimmer says hello and shares one thing about their day.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "song"
+      ]
+    },
+    {
+      "id": "dragon-handshake",
+      "name": "Dragon Handshake",
+      "description": "Give each swimmer a dragon nickname for today and use it all lesson.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "song"
+      ]
+    },
+    {
+      "id": "meteor-hello",
+      "name": "Meteor Hello",
+      "description": "Swimmers sit on the edge and say their name and their favourite meteor.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "song"
+      ]
+    }
+  ],
+  "equipment": [
+    {
+      "id": "pool-noodle",
+      "name": "Pool noodle",
+      "aliases": [
+        "pool noodle",
+        "pool noodles",
+        "noodle",
+        "noodles"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "kickboard",
+      "name": "Kickboard",
+      "aliases": [
+        "kickboards"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "hoop",
+      "name": "Hoop",
+      "aliases": [
+        "hoops",
+        "Hula-Hoop",
+        "Hula-Hoops",
+        "large plastic hoops"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "rescue-tube",
+      "name": "Rescue tube",
+      "aliases": [
+        "rescue tubes"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "small-toys",
+      "name": "Small toys",
+      "aliases": [
+        "toy",
+        "toys",
+        "small toy",
+        "sinking toy",
+        "sinking toys",
+        "floating toy",
+        "floating toys",
+        "other objects"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "ball",
+      "name": "Ball",
+      "aliases": [
+        "balls"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "pull-buoy",
+      "name": "Pull buoy",
+      "aliases": [
+        "pull buoys"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "float-belt",
+      "name": "Float belt",
+      "aliases": [
+        "float belts"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "barbell",
+      "name": "Barbell",
+      "aliases": [
+        "barbells",
+        "short barbell"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "life-jacket",
+      "name": "Life jacket",
+      "aliases": [
+        "life jackets"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "flotation-device",
+      "name": "Flotation device",
+      "aliases": [
+        "flotation devices"
+      ],
+      "source": "ymca",
+      "kind": "group",
+      "anyOf": [
+        "kickboard",
+        "pool-noodle",
+        "barbell",
+        "float-belt",
+        "life-jacket",
+        "pull-buoy"
+      ]
+    }
+  ],
+  "safety": [
+    {
+      "id": "single-inhalation",
+      "text": "One breath at a time: swimmers take a single normal breath before each time they go under, never several deep breaths in a row.",
+      "tags": [
+        "submerges"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "code": "2.1",
+      "n": 1,
+      "name": "Watching the Water",
+      "summary": "Talk about watching the water and what it looks like at the pool.",
+      "prompts": [
+        "What is one thing you want to try today?",
+        "Who can you ask for help at the pool?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "2.2",
+      "n": 2,
+      "name": "Calling for Help",
+      "summary": "Share one idea about calling for help and try it during the lesson.",
+      "prompts": [
+        "What is one kind thing you saw today?",
+        "What would you tell a new swimmer?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "2.3",
+      "n": 3,
+      "name": "Wearing a Life Jacket",
+      "summary": "Swimmers name one way to practise wearing a life jacket today.",
+      "prompts": [
+        "When is it OK to go in the water?",
+        "What helps you stay calm?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "2.4",
+      "n": 4,
+      "name": "Taking Turns",
+      "summary": "Talk about taking turns and what it looks like at the pool.",
+      "prompts": [
+        "What did you do well today?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "2.5",
+      "n": 5,
+      "name": "Staying Warm",
+      "summary": "Share one idea about staying warm and try it during the lesson.",
+      "prompts": [
+        "How can we share the space fairly?",
+        "What is something that was hard at first?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "2.6",
+      "n": 6,
+      "name": "Listening Well",
+      "summary": "Swimmers name one way to practise listening well today.",
+      "prompts": [
+        "How do you ask for a break?",
+        "What goes in your pool bag?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "2.7",
+      "n": 7,
+      "name": "Being Brave",
+      "summary": "Talk about being brave and what it looks like at the pool.",
+      "prompts": [
+        "Who would you like to swim with, and why?"
+      ],
+      "notes": [
+        "Keep it short and let swimmers do the talking."
+      ]
+    },
+    {
+      "code": "2.8",
+      "n": 8,
+      "name": "Showing Respect",
+      "summary": "Share one idea about showing respect and try it during the lesson.",
+      "prompts": [
+        "What is one thing you want to try today?"
+      ],
+      "notes": []
+    }
+  ],
+  "lessonTemplates": [
+    {
+      "n": 1,
+      "minutes": 30,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 5,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "pinwheel-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Go over the pool rules.",
+            "Show today’s skills before trying them.",
+            "Keep turns short so everyone stays warm.",
+            "Start in the shallowest spot."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 8,
+          "skillIds": [
+            "2.submerge"
+          ],
+          "stepRange": [
+            1,
+            3
+          ],
+          "activityIds": [
+            "rainbow-treasure-hunt",
+            "moonbeam-hide-and-seek",
+            "manatee-bubble-party"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 0,
+          "notes": [
+            "Remind swimmers to wait for your signal."
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 7,
+          "skillIds": [
+            "2.front-glide",
+            "2.water-exit"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "manatee-glide",
+            "dragon-launch",
+            "meteor-torpedo",
+            "kangaroo-step-out",
+            "sunflower-home-base",
+            "iceberg-climb"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.1"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "2.jump-and-return"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "otter-home-base",
+            "beaver-climb",
+            "lantern-jump"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "minutes": 30,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "pinwheel-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Demonstrate once, slowly.",
+            "Start in the shallowest spot."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "2.submerge"
+          ],
+          "stepRange": [
+            1,
+            3
+          ],
+          "activityIds": [
+            "rainbow-treasure-hunt",
+            "moonbeam-hide-and-seek",
+            "manatee-bubble-party"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 5,
+          "skillIds": [
+            "2.front-glide",
+            "2.water-exit"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "manatee-glide",
+            "dragon-launch",
+            "meteor-torpedo",
+            "kangaroo-step-out",
+            "sunflower-home-base",
+            "iceberg-climb"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "2.back-float",
+            "2.roll"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "pancake-float",
+            "popcorn-drift",
+            "pirate-drift",
+            "dragon-roll",
+            "narwhal-journey",
+            "meteor-flip"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.2"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "2.jump-and-return"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "otter-home-base",
+            "beaver-climb",
+            "lantern-jump"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "minutes": 30,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "pinwheel-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Demonstrate once, slowly.",
+            "Start in the shallowest spot."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "2.submerge"
+          ],
+          "stepRange": [
+            1,
+            3
+          ],
+          "activityIds": [
+            "rainbow-treasure-hunt",
+            "moonbeam-hide-and-seek",
+            "manatee-bubble-party"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 5,
+          "skillIds": [
+            "2.back-float",
+            "2.roll"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "pancake-float",
+            "popcorn-drift",
+            "pirate-drift",
+            "dragon-roll",
+            "narwhal-journey",
+            "meteor-flip"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "2.front-glide",
+            "2.roll"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "manatee-glide",
+            "dragon-launch",
+            "meteor-torpedo",
+            "dragon-roll",
+            "narwhal-journey",
+            "meteor-flip"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.3"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "2.jump-and-return"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "otter-home-base",
+            "beaver-climb",
+            "lantern-jump"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "minutes": 30,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "pinwheel-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Demonstrate once, slowly.",
+            "Start in the shallowest spot."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "2.submerge"
+          ],
+          "stepRange": [
+            1,
+            3
+          ],
+          "activityIds": [
+            "rainbow-treasure-hunt",
+            "moonbeam-hide-and-seek",
+            "manatee-bubble-party"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 5,
+          "skillIds": [
+            "2.front-glide",
+            "2.roll"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "manatee-glide",
+            "dragon-launch",
+            "meteor-torpedo",
+            "dragon-roll",
+            "narwhal-journey",
+            "meteor-flip"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "2.front-float",
+            "2.back-glide"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "koala-snooze",
+            "flamingo-nap",
+            "pelican-snooze",
+            "lobster-slide",
+            "pancake-rocket-ride",
+            "koala-launch"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.4"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "2.jump-and-return"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "otter-home-base",
+            "beaver-climb",
+            "lantern-jump"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "minutes": 30,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "pinwheel-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Demonstrate once, slowly.",
+            "Start in the shallowest spot."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "2.submerge"
+          ],
+          "stepRange": [
+            1,
+            3
+          ],
+          "activityIds": [
+            "rainbow-treasure-hunt",
+            "moonbeam-hide-and-seek",
+            "manatee-bubble-party"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 5,
+          "skillIds": [
+            "2.front-float",
+            "2.back-glide"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "koala-snooze",
+            "flamingo-nap",
+            "pelican-snooze",
+            "lobster-slide",
+            "pancake-rocket-ride",
+            "koala-launch"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "2.tread-water"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "iceberg-bob",
+            "heron-lookout",
+            "submarine-periscope"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.5"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "2.jump-and-return"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "otter-home-base",
+            "beaver-climb",
+            "lantern-jump"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "minutes": 30,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "pinwheel-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Demonstrate once, slowly.",
+            "Start in the shallowest spot."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "2.submerge"
+          ],
+          "stepRange": [
+            1,
+            3
+          ],
+          "activityIds": [
+            "rainbow-treasure-hunt",
+            "moonbeam-hide-and-seek",
+            "manatee-bubble-party"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 5,
+          "skillIds": [
+            "2.tread-water"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "iceberg-bob",
+            "heron-lookout",
+            "submarine-periscope"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "2.swim-and-rest"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "equipment": [
+            [
+              "life-jacket"
+            ]
+          ],
+          "activityIds": [
+            "canoe-trip",
+            "tugboat-swim",
+            "iceberg-trip"
+          ],
+          "notes": [
+            "Pair nervous swimmers with a buddy.",
+            "Count out loud together."
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.6"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "2.jump-and-return"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "otter-home-base",
+            "beaver-climb",
+            "lantern-jump"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "minutes": 30,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "pinwheel-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Demonstrate once, slowly.",
+            "Start in the shallowest spot."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "2.submerge"
+          ],
+          "stepRange": [
+            1,
+            3
+          ],
+          "activityIds": [
+            "rainbow-treasure-hunt",
+            "moonbeam-hide-and-seek",
+            "manatee-bubble-party"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 5,
+          "skillIds": [
+            "any"
+          ],
+          "notes": [
+            "Recap what the group practised.",
+            "Point out one thing each swimmer did well."
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "any"
+          ],
+          "notes": [
+            "Recap what the group practised.",
+            "Point out one thing each swimmer did well."
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.7"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "2.jump-and-return"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "otter-home-base",
+            "beaver-climb",
+            "lantern-jump"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "minutes": 30,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "pinwheel-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Demonstrate once, slowly.",
+            "Start in the shallowest spot."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "2.submerge"
+          ],
+          "stepRange": [
+            1,
+            3
+          ],
+          "activityIds": [
+            "rainbow-treasure-hunt",
+            "moonbeam-hide-and-seek",
+            "manatee-bubble-party"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 5,
+          "skillIds": [
+            "any"
+          ],
+          "notes": [
+            "Recap what the group practised.",
+            "Point out one thing each swimmer did well."
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "any"
+          ],
+          "notes": [
+            "Recap what the group practised.",
+            "Point out one thing each swimmer did well."
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.8"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Mention one safety habit.",
+            "Ask what they want to try next time."
+          ]
+        }
+      ]
+    }
+  ],
+  "trackerRows": [
+    {
+      "text": "Submerge on your own",
+      "stepIds": [
+        "2.submerge.3"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Front glide on your own, farther, 10 feet",
+      "stepIds": [
+        "2.front-glide.4"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Water exit on your own, near the wall",
+      "stepIds": [
+        "2.water-exit.2"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Jump and return on your own",
+      "stepIds": [
+        "2.jump-and-return.2"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Back float on your own, 20 seconds",
+      "stepIds": [
+        "2.back-float.2"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Roll on your own, both ways",
+      "stepIds": [
+        "2.roll.2"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Front float on your own, 20 seconds",
+      "stepIds": [
+        "2.front-float.2"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Back glide on your own, farther, 10 feet",
+      "stepIds": [
+        "2.back-glide.4"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Tread water on your own, farther, near the wall, 10 seconds",
+      "stepIds": [
+        "2.tread-water.4"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Swim and rest on your own, 5 yards",
+      "stepIds": [
+        "2.swim-and-rest.1"
+      ],
+      "rule": "all"
+    }
+  ]
+}

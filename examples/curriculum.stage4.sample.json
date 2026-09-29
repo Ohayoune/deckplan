@@ -1,0 +1,2095 @@
+{
+  "format": "curriculum/1",
+  "version": "sample-2026.09",
+  "note": "MADE-UP sample for the tests and the demo: one stage in the compact single-stage form of the curriculum files (CURRICULUM_FORMAT.md §3). stage holds the stage's own fields; the top level holds its skills, greetingActivityIds, topics, lessonTemplates and trackerRows beside activities, equipment and safety. Every name and sentence is invented; none of it is YMCA text.",
+  "stage": {
+    "id": "4",
+    "name": "First Strokes",
+    "group": "Strokes",
+    "ageGroups": [
+      "preschool",
+      "schoolAge",
+      "teen",
+      "adult"
+    ],
+    "lessonMinutes": 40,
+    "warmUpSkill": "4.endurance",
+    "wrapUpSkill": "4.dive",
+    "milestones": [
+      "Swimming the first strokes over short distances",
+      "Breathing in a steady rhythm while swimming",
+      "Planning ahead for safe swimming anywhere"
+    ]
+  },
+  "skills": [
+    {
+      "id": "4.endurance",
+      "name": "Endurance",
+      "order": 1,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "3.swim-and-rest.1"
+      ],
+      "steps": [
+        {
+          "id": "4.endurance.1",
+          "n": 1,
+          "name": "Endurance with a helper close by, 15 yards",
+          "description": "Endurance with a helper close by, 15 yards. A helper stays within reach.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          }
+        },
+        {
+          "id": "4.endurance.2",
+          "n": 2,
+          "name": "Endurance on your own, 25 yards",
+          "description": "Endurance on your own, 25 yards. Rest between tries.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 25
+          }
+        }
+      ],
+      "benchmarkStepId": "4.endurance.2",
+      "advancedStepIds": [
+        "5.endurance.1",
+        "5.endurance.2"
+      ],
+      "activityIds": [
+        "puffin-relay",
+        "rocket-race",
+        "jellybean-paddle"
+      ]
+    },
+    {
+      "id": "4.front-crawl",
+      "name": "Front Crawl",
+      "order": 2,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "3.swim-on-front.1",
+        "3.swim-on-front.2",
+        "3.swim-on-front.3",
+        "3.swim-on-front.4"
+      ],
+      "steps": [
+        {
+          "id": "4.front-crawl.1",
+          "n": 1,
+          "name": "Front crawl with hands-on help, 15 yards",
+          "description": "Front crawl with hands-on help, 15 yards. A helper stays within reach.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          },
+          "submerges": true
+        },
+        {
+          "id": "4.front-crawl.2",
+          "n": 2,
+          "name": "Front crawl with a helper close by, 15 yards",
+          "description": "Front crawl with a helper close by, 15 yards. Rest between tries.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          },
+          "submerges": true
+        },
+        {
+          "id": "4.front-crawl.3",
+          "n": 3,
+          "name": "Front crawl on your own, 15 yards",
+          "description": "Front crawl on your own, 15 yards. Go slowly and stay relaxed.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          },
+          "submerges": true
+        },
+        {
+          "id": "4.front-crawl.4",
+          "n": 4,
+          "name": "Front crawl on your own, farther, 15 yards",
+          "description": "Front crawl on your own, farther, 15 yards. Cheer each try.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          },
+          "submerges": true
+        }
+      ],
+      "benchmarkStepId": "4.front-crawl.4",
+      "advancedStepIds": [
+        "5.front-crawl.1",
+        "5.front-crawl.2",
+        "5.front-crawl.3",
+        "5.front-crawl.4"
+      ],
+      "activityIds": [
+        "dragon-laps",
+        "meteor-cruise",
+        "penguin-challenge"
+      ]
+    },
+    {
+      "id": "4.back-crawl",
+      "name": "Back Crawl",
+      "order": 3,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "3.swim-on-back.1",
+        "3.swim-on-back.2",
+        "3.swim-on-back.3"
+      ],
+      "steps": [
+        {
+          "id": "4.back-crawl.1",
+          "n": 1,
+          "name": "Back crawl with hands-on help, 15 yards",
+          "description": "Back crawl with hands-on help, 15 yards. A helper stays within reach.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          }
+        },
+        {
+          "id": "4.back-crawl.2",
+          "n": 2,
+          "name": "Back crawl with a helper close by, 15 yards",
+          "description": "Back crawl with a helper close by, 15 yards. Rest between tries.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          }
+        },
+        {
+          "id": "4.back-crawl.3",
+          "n": 3,
+          "name": "Back crawl on your own, 15 yards",
+          "description": "Back crawl on your own, 15 yards. Go slowly and stay relaxed.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          }
+        }
+      ],
+      "benchmarkStepId": "4.back-crawl.3",
+      "advancedStepIds": [
+        "5.back-crawl.1",
+        "5.back-crawl.2",
+        "5.back-crawl.3"
+      ],
+      "activityIds": [
+        "comet-relay",
+        "popcorn-race",
+        "robot-paddle"
+      ]
+    },
+    {
+      "id": "4.dive",
+      "name": "Dive",
+      "order": 4,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "3.jump-swim-turn-swim-grab.1",
+        "3.jump-swim-turn-swim-grab.2",
+        "3.jump-swim-turn-swim-grab.3"
+      ],
+      "steps": [
+        {
+          "id": "4.dive.1",
+          "n": 1,
+          "name": "Dive on your own",
+          "description": "Dive on your own. A helper stays within reach.",
+          "submerges": true,
+          "depths": [
+            "deep"
+          ],
+          "headfirst": true
+        }
+      ],
+      "benchmarkStepId": "4.dive.1",
+      "advancedStepIds": [
+        "5.dive.1",
+        "5.dive.2",
+        "5.dive.3"
+      ],
+      "activityIds": [
+        "lobster-dive",
+        "pancake-plunge",
+        "pirate-swoop"
+      ]
+    },
+    {
+      "id": "4.elementary-backstroke",
+      "name": "Elementary Backstroke",
+      "order": 5,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "3.swim-on-back.1",
+        "3.swim-on-back.2",
+        "3.swim-on-back.3"
+      ],
+      "steps": [
+        {
+          "id": "4.elementary-backstroke.1",
+          "n": 1,
+          "name": "Elementary backstroke with hands-on help, using a kickboard, 15 yards",
+          "description": "Elementary backstroke with hands-on help, using a kickboard, 15 yards. A helper stays within reach.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          },
+          "equipment": [
+            [
+              "kickboard"
+            ]
+          ]
+        },
+        {
+          "id": "4.elementary-backstroke.2",
+          "n": 2,
+          "name": "Elementary backstroke with a helper close by, using a pull buoy, 15 yards",
+          "description": "Elementary backstroke with a helper close by, using a pull buoy, 15 yards. Rest between tries.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          },
+          "equipment": [
+            [
+              "pull-buoy"
+            ]
+          ]
+        },
+        {
+          "id": "4.elementary-backstroke.3",
+          "n": 3,
+          "name": "Elementary backstroke on your own, 15 yards",
+          "description": "Elementary backstroke on your own, 15 yards. Go slowly and stay relaxed.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          }
+        }
+      ],
+      "benchmarkStepId": "4.elementary-backstroke.3",
+      "advancedStepIds": [
+        "6.elementary-backstroke.1",
+        "6.elementary-backstroke.2",
+        "6.elementary-backstroke.3"
+      ],
+      "activityIds": [
+        "koala-laps",
+        "walrus-cruise",
+        "lobster-challenge"
+      ]
+    },
+    {
+      "id": "4.tread-water",
+      "name": "Tread Water",
+      "order": 6,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "3.tread-water.1",
+        "3.tread-water.2"
+      ],
+      "steps": [
+        {
+          "id": "4.tread-water.1",
+          "n": 1,
+          "name": "Tread water with a helper close by, 60 seconds",
+          "description": "Tread water with a helper close by, 60 seconds. A helper stays within reach.",
+          "measure": {
+            "kind": "time",
+            "unit": "s",
+            "value": 60
+          },
+          "submerges": true,
+          "depths": [
+            "medium",
+            "deep"
+          ]
+        },
+        {
+          "id": "4.tread-water.2",
+          "n": 2,
+          "name": "Tread water on your own, 60 seconds",
+          "description": "Tread water on your own, 60 seconds. Rest between tries.",
+          "measure": {
+            "kind": "time",
+            "unit": "s",
+            "value": 60
+          },
+          "submerges": true,
+          "depths": [
+            "medium",
+            "deep"
+          ]
+        }
+      ],
+      "benchmarkStepId": "4.tread-water.2",
+      "advancedStepIds": [
+        "5.tread-water.1",
+        "5.tread-water.2"
+      ],
+      "activityIds": [
+        "iceberg-bob",
+        "heron-lookout",
+        "rainbow-tread"
+      ]
+    },
+    {
+      "id": "4.breaststroke",
+      "name": "Breaststroke",
+      "order": 7,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "3.swim-on-front.1",
+        "3.swim-on-front.2",
+        "3.swim-on-front.3",
+        "3.swim-on-front.4"
+      ],
+      "steps": [
+        {
+          "id": "4.breaststroke.1",
+          "n": 1,
+          "name": "Breaststroke on your own, 15 yards",
+          "description": "Breaststroke on your own, 15 yards. A helper stays within reach.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          }
+        }
+      ],
+      "benchmarkStepId": "4.breaststroke.1",
+      "advancedStepIds": [
+        "5.breaststroke.1",
+        "5.breaststroke.2",
+        "5.breaststroke.3"
+      ],
+      "activityIds": [
+        "pancake-relay",
+        "pirate-race",
+        "flamingo-paddle"
+      ]
+    },
+    {
+      "id": "4.butterfly",
+      "name": "Butterfly",
+      "order": 8,
+      "isBenchmarkSequence": false,
+      "prerequisiteStepIds": [
+        "3.swim-on-front.1",
+        "3.swim-on-front.2",
+        "3.swim-on-front.3",
+        "3.swim-on-front.4"
+      ],
+      "steps": [
+        {
+          "id": "4.butterfly.1",
+          "n": 1,
+          "name": "Butterfly on your own, 15 yards",
+          "description": "Butterfly on your own, 15 yards. A helper stays within reach.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          },
+          "submerges": true
+        }
+      ],
+      "benchmarkStepId": "4.butterfly.1",
+      "advancedStepIds": [
+        "5.butterfly.1",
+        "5.butterfly.2",
+        "5.butterfly.3"
+      ],
+      "activityIds": [
+        "pelican-laps",
+        "narwhal-cruise",
+        "canoe-challenge"
+      ]
+    }
+  ],
+  "greetingActivityIds": [
+    "tugboat-hello",
+    "thunder-handshake",
+    "castle-hello",
+    "snowflake-welcome",
+    "sunflower-name-circle",
+    "penguin-welcome",
+    "heron-roll-call"
+  ],
+  "activities": [
+    {
+      "id": "puffin-relay",
+      "name": "Puffin Relay",
+      "description": "Split into teams and swim a short relay; every swimmer cheers for the next puffin. Bring a kickboard.",
+      "ages": [
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "kickboard"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "game",
+        "kick"
+      ]
+    },
+    {
+      "id": "rocket-race",
+      "name": "Rocket Race",
+      "description": "Swim to the lane marker with long, relaxed arms, then rest before the next length.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [
+        "life-jacket",
+        "flotation-device"
+      ],
+      "depths": [
+        "medium",
+        "deep"
+      ],
+      "submerges": false,
+      "tags": [
+        "deep",
+        "game"
+      ]
+    },
+    {
+      "id": "jellybean-paddle",
+      "name": "Jellybean Paddle",
+      "description": "Swimmers pick a card with a jellybean on it and swim that length at a steady pace. Bring a pool noodle.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "pool-noodle"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "game",
+        "noodle"
+      ]
+    },
+    {
+      "id": "dragon-laps",
+      "name": "Dragon Laps",
+      "description": "Split into teams and swim a short relay; every swimmer cheers for the next dragon.",
+      "ages": [
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "swim"
+      ]
+    },
+    {
+      "id": "meteor-cruise",
+      "name": "Meteor Cruise",
+      "description": "Swim to the lane marker with long, relaxed arms, then rest before the next length. Bring a rope.",
+      "ages": [
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "rope"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "kick",
+        "swim"
+      ]
+    },
+    {
+      "id": "penguin-challenge",
+      "name": "Penguin Challenge",
+      "description": "Swimmers pick a card with a penguin on it and swim that length at a steady pace.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "glide",
+        "kick"
+      ]
+    },
+    {
+      "id": "comet-relay",
+      "name": "Comet Relay",
+      "description": "Split into teams and swim a short relay; every swimmer cheers for the next comet. Bring fins.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "fins"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "kick"
+      ]
+    },
+    {
+      "id": "popcorn-race",
+      "name": "Popcorn Race",
+      "description": "Swim to the lane marker with long, relaxed arms, then rest before the next length. Bring a kickboard.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "kickboard"
+        ]
+      ],
+      "equipmentOptional": [
+        "float-belt"
+      ],
+      "submerges": false,
+      "tags": [
+        "kick"
+      ]
+    },
+    {
+      "id": "robot-paddle",
+      "name": "Robot Paddle",
+      "description": "Swimmers pick a card with a robot on it and swim that length at a steady pace.",
+      "ages": [
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "swim"
+      ]
+    },
+    {
+      "id": "lobster-dive",
+      "name": "Lobster Dive",
+      "description": "In deep enough water only: swimmers sit at the edge, point their arms over their head and tip forward into the water.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [
+        "watering-can"
+      ],
+      "depths": [
+        "deep"
+      ],
+      "submerges": true,
+      "headfirst": true,
+      "tags": [
+        "deep",
+        "dive"
+      ]
+    },
+    {
+      "id": "pancake-plunge",
+      "name": "Pancake Plunge",
+      "description": "Swimmers aim for a spot on the water and enter hands first like a pancake, in deep water only.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "depths": [
+        "deep"
+      ],
+      "submerges": true,
+      "headfirst": true,
+      "tags": [
+        "deep",
+        "dive"
+      ]
+    },
+    {
+      "id": "pirate-swoop",
+      "name": "Pirate Swoop",
+      "description": "Practise the arm position on the deck first, then try one entry at a time in deep water.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "depths": [
+        "deep"
+      ],
+      "submerges": true,
+      "headfirst": true,
+      "tags": [
+        "deep",
+        "dive"
+      ]
+    },
+    {
+      "id": "koala-laps",
+      "name": "Koala Laps",
+      "description": "Split into teams and swim a short relay; every swimmer cheers for the next koala.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "kick",
+        "tread"
+      ]
+    },
+    {
+      "id": "walrus-cruise",
+      "name": "Walrus Cruise",
+      "description": "Swim to the lane marker with long, relaxed arms, then rest before the next length.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "lobster-challenge",
+      "name": "Lobster Challenge",
+      "description": "Swimmers pick a card with a lobster on it and swim that length at a steady pace.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "iceberg-bob",
+      "name": "Iceberg Bob",
+      "description": "Swimmers keep their heads up like an iceberg on lookout, moving arms and legs to stay in place. Bring a life jacket or a float belt.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "life-jacket",
+          "float-belt"
+        ]
+      ],
+      "equipmentOptional": [],
+      "depths": [
+        "medium",
+        "deep"
+      ],
+      "submerges": true,
+      "tags": [
+        "deep",
+        "kick"
+      ]
+    },
+    {
+      "id": "heron-lookout",
+      "name": "Heron Lookout",
+      "description": "Play Heron Periscope: tread water, look around, and name something you can see on the deck. Bring a rescue tube or a pool noodle.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "rescue-tube",
+          "pool-noodle"
+        ]
+      ],
+      "equipmentOptional": [
+        "flotation-device"
+      ],
+      "depths": [
+        "medium",
+        "deep"
+      ],
+      "submerges": false,
+      "tags": [
+        "deep",
+        "kick",
+        "noodle"
+      ]
+    },
+    {
+      "id": "rainbow-tread",
+      "name": "Rainbow Tread",
+      "description": "Swimmers keep their heads up like a rainbow on lookout, moving arms and legs to stay in place.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "song"
+      ]
+    },
+    {
+      "id": "pancake-relay",
+      "name": "Pancake Relay",
+      "description": "Split into teams and swim a short relay; every swimmer cheers for the next pancake.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [
+        "kickboard"
+      ],
+      "submerges": false,
+      "tags": [
+        "kick"
+      ]
+    },
+    {
+      "id": "pirate-race",
+      "name": "Pirate Race",
+      "description": "Swim to the lane marker with long, relaxed arms, then rest before the next length. Bring a flotation device.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "flotation-device"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "kick",
+        "noodle"
+      ]
+    },
+    {
+      "id": "flamingo-paddle",
+      "name": "Flamingo Paddle",
+      "description": "Swimmers pick a card with a flamingo on it and swim that length at a steady pace.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "kick",
+        "tread"
+      ]
+    },
+    {
+      "id": "pelican-laps",
+      "name": "Pelican Laps",
+      "description": "Split into teams and swim a short relay; every swimmer cheers for the next pelican. Bring a hoop.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "hoop"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "kick"
+      ]
+    },
+    {
+      "id": "narwhal-cruise",
+      "name": "Narwhal Cruise",
+      "description": "Swim to the lane marker with long, relaxed arms, then rest before the next length.",
+      "ages": [
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "kick"
+      ]
+    },
+    {
+      "id": "canoe-challenge",
+      "name": "Canoe Challenge",
+      "description": "Swimmers pick a card with a canoe on it and swim that length at a steady pace.",
+      "ages": [
+        "S",
+        "A"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": [
+        "kick"
+      ]
+    },
+    {
+      "id": "tugboat-hello",
+      "name": "Tugboat Hello",
+      "description": "Swimmers sit on the edge and say their name and their favourite tugboat.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "thunder-handshake",
+      "name": "Thunder Handshake",
+      "description": "Give each swimmer a thunder nickname for today and use it all lesson.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "castle-hello",
+      "name": "Castle Hello",
+      "description": "Swimmers sit on the edge and say their name and their favourite castle.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "snowflake-welcome",
+      "name": "Snowflake Welcome",
+      "description": "Go around the circle; each swimmer says hello and shares one thing about their day.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "sunflower-name-circle",
+      "name": "Sunflower Name Circle",
+      "description": "Give each swimmer a sunflower nickname for today and use it all lesson.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "penguin-welcome",
+      "name": "Penguin Welcome",
+      "description": "Go around the circle; each swimmer says hello and shares one thing about their day.",
+      "ages": [],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": [
+        "song"
+      ]
+    },
+    {
+      "id": "heron-roll-call",
+      "name": "Heron Roll Call",
+      "description": "Go around the circle; each swimmer says hello and shares one thing about their day. Bring a ball.",
+      "ages": [],
+      "equipment": [
+        [
+          "ball"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": false,
+      "tags": []
+    },
+    {
+      "id": "thunder-game",
+      "name": "Thunder Game",
+      "description": "A free-play game where swimmers practise today's skills on a pretend thunder parade. Bring a pole.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "pole"
+        ]
+      ],
+      "equipmentOptional": [
+        "small-toys"
+      ],
+      "submerges": true,
+      "reachBottom": true,
+      "tags": []
+    },
+    {
+      "id": "rainbow-treasure-hunt",
+      "name": "Rainbow Treasure Hunt",
+      "description": "A helper points to a spot on the bottom near the steps. Swimmers take one breath, look under at it, and come back up to say what they saw.",
+      "ages": [
+        "P",
+        "S"
+      ],
+      "equipment": [],
+      "equipmentOptional": [],
+      "submerges": true,
+      "tags": []
+    },
+    {
+      "id": "lantern-countdown",
+      "name": "Lantern Countdown",
+      "description": "Swimmers hum like a lantern while blowing bubbles, first on the surface, then with mouth and nose under the water. Bring dive rings or small toys.",
+      "ages": [
+        "P",
+        "S",
+        "A"
+      ],
+      "equipment": [
+        [
+          "dive-rings",
+          "small-toys"
+        ]
+      ],
+      "equipmentOptional": [],
+      "submerges": true,
+      "reachBottom": true,
+      "tags": []
+    }
+  ],
+  "equipment": [
+    {
+      "id": "pool-noodle",
+      "name": "Pool noodle",
+      "aliases": [
+        "pool noodle",
+        "pool noodles",
+        "noodle",
+        "noodles"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "kickboard",
+      "name": "Kickboard",
+      "aliases": [
+        "kickboards"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "hoop",
+      "name": "Hoop",
+      "aliases": [
+        "hoops",
+        "Hula-Hoop",
+        "Hula-Hoops",
+        "large plastic hoops"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "rescue-tube",
+      "name": "Rescue tube",
+      "aliases": [
+        "rescue tubes"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "small-toys",
+      "name": "Small toys",
+      "aliases": [
+        "toy",
+        "toys",
+        "small toy",
+        "sinking toy",
+        "sinking toys",
+        "floating toy",
+        "floating toys",
+        "other objects"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "ball",
+      "name": "Ball",
+      "aliases": [
+        "balls"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "aliases": [
+        "ropes",
+        "tubing"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "pull-buoy",
+      "name": "Pull buoy",
+      "aliases": [
+        "pull buoys"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "fins",
+      "name": "Fins",
+      "aliases": [
+        "flippers"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "float-belt",
+      "name": "Float belt",
+      "aliases": [
+        "float belts"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "dive-rings",
+      "name": "Dive rings",
+      "aliases": [
+        "dive ring"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "barbell",
+      "name": "Barbell",
+      "aliases": [
+        "barbells",
+        "short barbell"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "life-jacket",
+      "name": "Life jacket",
+      "aliases": [
+        "life jackets"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "pole",
+      "name": "Pole",
+      "aliases": [
+        "poles"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "watering-can",
+      "name": "Watering can",
+      "aliases": [
+        "watering cans"
+      ],
+      "source": "ymca",
+      "kind": "item"
+    },
+    {
+      "id": "flotation-device",
+      "name": "Flotation device",
+      "aliases": [
+        "flotation devices"
+      ],
+      "source": "ymca",
+      "kind": "group",
+      "anyOf": [
+        "kickboard",
+        "pool-noodle",
+        "barbell",
+        "float-belt",
+        "life-jacket",
+        "pull-buoy"
+      ]
+    }
+  ],
+  "safety": [
+    {
+      "id": "single-inhalation",
+      "text": "One breath at a time: swimmers take a single normal breath before each time they go under, never several deep breaths in a row.",
+      "tags": [
+        "submerges"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "code": "4.1",
+      "n": 1,
+      "name": "Setting a Goal",
+      "summary": "Talk about setting a goal and what it looks like at the pool.",
+      "prompts": [
+        "Who can you ask for help at the pool?",
+        "Why do we walk instead of run on the deck?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "4.2",
+      "n": 2,
+      "name": "Open Water",
+      "summary": "Share one idea about open water and try it during the lesson.",
+      "prompts": [
+        "What does a good listener do?",
+        "How can you help a friend who feels nervous?"
+      ],
+      "notes": [
+        "Keep it short and let swimmers do the talking."
+      ]
+    },
+    {
+      "code": "4.3",
+      "n": 3,
+      "name": "Swimming with a Buddy",
+      "summary": "Swimmers name one way to practise swimming with a buddy today.",
+      "prompts": [
+        "What makes you feel safe in the water?",
+        "What did you do well today?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "4.4",
+      "n": 4,
+      "name": "Good Sportsmanship",
+      "summary": "Talk about good sportsmanship and what it looks like at the pool.",
+      "prompts": [
+        "What would you like to practise next time?",
+        "Where is a safe place to wait for your turn?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "4.5",
+      "n": 5,
+      "name": "Healthy Habits",
+      "summary": "Share one idea about healthy habits and try it during the lesson.",
+      "prompts": [
+        "What can you do if you get tired in the water?",
+        "How do you know when it is your turn?",
+        "What is your favourite pool game, and why?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "4.6",
+      "n": 6,
+      "name": "Helping from the Deck",
+      "summary": "Swimmers name one way to practise helping from the deck today.",
+      "prompts": [
+        "Who watches you when you are near water?",
+        "What should you do before getting in?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "4.7",
+      "n": 7,
+      "name": "Keeping Calm",
+      "summary": "Talk about keeping calm and what it looks like at the pool.",
+      "prompts": [
+        "How does your body feel after swimming?",
+        "What is one kind thing you saw today?"
+      ],
+      "notes": []
+    },
+    {
+      "code": "4.8",
+      "n": 8,
+      "name": "Looking Back",
+      "summary": "Share one idea about looking back and try it during the lesson.",
+      "prompts": [
+        "What would you tell a new swimmer?",
+        "When is it OK to go in the water?"
+      ],
+      "notes": [
+        "Keep it short and let swimmers do the talking."
+      ]
+    }
+  ],
+  "lessonTemplates": [
+    {
+      "n": 1,
+      "minutes": 40,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 5,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "penguin-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Go over the pool rules.",
+            "Show today’s skills before trying them.",
+            "Keep turns short so everyone stays warm.",
+            "Praise effort out loud."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 5,
+          "activityIds": [
+            "thunder-game",
+            "rainbow-treasure-hunt",
+            "lantern-countdown"
+          ],
+          "notes": [
+            "Give one tip at a time."
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 0,
+          "notes": [
+            "Remind swimmers to wait for your signal."
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 20,
+          "skillIds": [
+            "4.front-crawl",
+            "4.back-crawl"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "dragon-laps",
+            "penguin-challenge",
+            "meteor-cruise",
+            "comet-relay",
+            "popcorn-race",
+            "robot-paddle"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "4.1"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "4.dive"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "activityIds": [
+            "lobster-dive",
+            "pancake-plunge",
+            "pirate-swoop"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "minutes": 40,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "penguin-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Finish with something everyone can do.",
+            "Praise effort out loud."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "activityIds": [
+            "thunder-game",
+            "rainbow-treasure-hunt",
+            "lantern-countdown"
+          ],
+          "notes": [
+            "Give one tip at a time."
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 10,
+          "skillIds": [
+            "4.front-crawl",
+            "4.back-crawl"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "dragon-laps",
+            "penguin-challenge",
+            "meteor-cruise",
+            "comet-relay",
+            "popcorn-race",
+            "robot-paddle"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 15,
+          "skillIds": [
+            "4.elementary-backstroke"
+          ],
+          "stepRange": [
+            1,
+            3
+          ],
+          "activityIds": [
+            "walrus-cruise",
+            "lobster-challenge",
+            "koala-laps"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "4.2"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "4.dive"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "activityIds": [
+            "lobster-dive",
+            "pancake-plunge",
+            "pirate-swoop"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "minutes": 40,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "penguin-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Finish with something everyone can do.",
+            "Praise effort out loud."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "activityIds": [
+            "thunder-game",
+            "rainbow-treasure-hunt",
+            "lantern-countdown"
+          ],
+          "notes": [
+            "Give one tip at a time."
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 10,
+          "skillIds": [
+            "4.front-crawl",
+            "4.back-crawl"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "dragon-laps",
+            "penguin-challenge",
+            "meteor-cruise",
+            "comet-relay",
+            "popcorn-race",
+            "robot-paddle"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 15,
+          "skillIds": [
+            "4.tread-water"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "iceberg-bob",
+            "heron-lookout",
+            "rainbow-tread"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "4.3"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "4.dive"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "activityIds": [
+            "lobster-dive",
+            "pancake-plunge",
+            "pirate-swoop"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "minutes": 40,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "penguin-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Finish with something everyone can do.",
+            "Praise effort out loud."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "activityIds": [
+            "thunder-game",
+            "rainbow-treasure-hunt",
+            "lantern-countdown"
+          ],
+          "notes": [
+            "Give one tip at a time."
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 10,
+          "skillIds": [
+            "4.front-crawl",
+            "4.back-crawl"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "dragon-laps",
+            "penguin-challenge",
+            "meteor-cruise",
+            "comet-relay",
+            "popcorn-race",
+            "robot-paddle"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 15,
+          "skillIds": [
+            "4.breaststroke"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "activityIds": [
+            "pancake-relay",
+            "pirate-race",
+            "flamingo-paddle"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "4.4"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "4.dive"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "activityIds": [
+            "lobster-dive",
+            "pancake-plunge",
+            "pirate-swoop"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "minutes": 40,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "penguin-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Finish with something everyone can do.",
+            "Praise effort out loud."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "4.endurance"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "puffin-relay",
+            "rocket-race",
+            "jellybean-paddle"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 10,
+          "skillIds": [
+            "4.front-crawl",
+            "4.back-crawl"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "dragon-laps",
+            "penguin-challenge",
+            "meteor-cruise",
+            "comet-relay",
+            "popcorn-race",
+            "robot-paddle"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 15,
+          "skillIds": [
+            "4.butterfly"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "activityIds": [
+            "pelican-laps",
+            "narwhal-cruise",
+            "canoe-challenge"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "4.5"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "4.dive"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "activityIds": [
+            "lobster-dive",
+            "pancake-plunge",
+            "pirate-swoop"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "minutes": 40,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "penguin-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Finish with something everyone can do.",
+            "Praise effort out loud."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "4.endurance"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "puffin-relay",
+            "rocket-race",
+            "jellybean-paddle"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 10,
+          "skillIds": [
+            "4.front-crawl",
+            "4.back-crawl"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "dragon-laps",
+            "penguin-challenge",
+            "meteor-cruise",
+            "comet-relay",
+            "popcorn-race",
+            "robot-paddle"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 15,
+          "skillIds": [
+            "any"
+          ],
+          "notes": [
+            "Recap what the group practised.",
+            "Point out one thing each swimmer did well."
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "4.6"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "4.dive"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "activityIds": [
+            "lobster-dive",
+            "pancake-plunge",
+            "pirate-swoop"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "minutes": 40,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "penguin-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Finish with something everyone can do.",
+            "Praise effort out loud."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "4.endurance"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "puffin-relay",
+            "rocket-race",
+            "jellybean-paddle"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 10,
+          "skillIds": [
+            "4.front-crawl",
+            "4.back-crawl"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "dragon-laps",
+            "penguin-challenge",
+            "meteor-cruise",
+            "comet-relay",
+            "popcorn-race",
+            "robot-paddle"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 15,
+          "skillIds": [
+            "any"
+          ],
+          "notes": [
+            "Recap what the group practised.",
+            "Point out one thing each swimmer did well."
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "4.7"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "skillIds": [
+            "4.dive"
+          ],
+          "stepRange": [
+            1,
+            1
+          ],
+          "activityIds": [
+            "lobster-dive",
+            "pancake-plunge",
+            "pirate-swoop"
+          ],
+          "notes": [
+            "Offer a float to anyone who wants one."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "minutes": 40,
+      "blocks": [
+        {
+          "kind": "welcome",
+          "minutes": 2,
+          "activityIds": [
+            "snowflake-welcome",
+            "tugboat-hello",
+            "penguin-welcome"
+          ],
+          "notes": [
+            "Say each swimmer’s name.",
+            "Check in with quieter swimmers.",
+            "Show today’s skills before trying them.",
+            "Finish with something everyone can do.",
+            "Praise effort out loud."
+          ]
+        },
+        {
+          "kind": "warmUp",
+          "minutes": 3,
+          "skillIds": [
+            "4.endurance"
+          ],
+          "stepRange": [
+            1,
+            2
+          ],
+          "activityIds": [
+            "puffin-relay",
+            "rocket-race",
+            "jellybean-paddle"
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 10,
+          "skillIds": [
+            "4.front-crawl",
+            "4.back-crawl"
+          ],
+          "stepRange": [
+            1,
+            4
+          ],
+          "activityIds": [
+            "dragon-laps",
+            "penguin-challenge",
+            "meteor-cruise",
+            "comet-relay",
+            "popcorn-race",
+            "robot-paddle"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 15,
+          "skillIds": [
+            "any"
+          ],
+          "notes": [
+            "Recap what the group practised.",
+            "Point out one thing each swimmer did well."
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "4.8"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Mention one safety habit.",
+            "Ask what they want to try next time."
+          ]
+        }
+      ]
+    }
+  ],
+  "trackerRows": [
+    {
+      "text": "Endurance on your own, 25 yards",
+      "stepIds": [
+        "4.endurance.2"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Front crawl on your own, farther, 15 yards",
+      "stepIds": [
+        "4.front-crawl.4"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Back crawl on your own, 15 yards",
+      "stepIds": [
+        "4.back-crawl.3"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Dive on your own",
+      "stepIds": [
+        "4.dive.1"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Elementary backstroke on your own, 15 yards",
+      "stepIds": [
+        "4.elementary-backstroke.3"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Tread water on your own, 60 seconds",
+      "stepIds": [
+        "4.tread-water.2"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Breaststroke on your own, 15 yards",
+      "stepIds": [
+        "4.breaststroke.1"
+      ],
+      "rule": "all"
+    },
+    {
+      "text": "Butterfly on your own, 15 yards",
+      "stepIds": [
+        "4.butterfly.1"
+      ],
+      "rule": "all"
+    }
+  ]
+}

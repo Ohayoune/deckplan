@@ -1,0 +1,61 @@
+{
+  "source": "synthetic",
+  "videos": [
+    {
+      "page": "YSL Videos",
+      "provider": "Vimeo",
+      "title": "Welcome to the Synthetic Program-HD",
+      "url": "https://vimeo.com/100000000",
+      "videoId": "100000000"
+    },
+    {
+      "page": "YSL Videos",
+      "provider": "Vimeo",
+      "title": "Skill One (Stages 1 & 2)",
+      "url": "https://vimeo.com/100000001",
+      "videoId": "100000001"
+    },
+    {
+      "page": "YSL Videos",
+      "provider": "Vimeo",
+      "title": "Skill Two & Skill Three (Stages A & B)",
+      "url": "https://vimeo.com/100000002",
+      "videoId": "100000002"
+    },
+    {
+      "page": "YSL Videos",
+      "provider": "Vimeo",
+      "title": "Skill Four (Stages 4-6)",
+      "url": "https://vimeo.com/100000003",
+      "videoId": "100000003"
+    },
+    {
+      "page": "YSL Videos",
+      "provider": "Vimeo",
+      "title": "Skill Eight (Stage 5)",
+      "url": "https://vimeo.com/100000004",
+      "videoId": "100000004"
+    },
+    {
+      "page": "YSL Videos",
+      "provider": "Vimeo",
+      "title": "Skill Five and Skill Six L3",
+      "url": "https://vimeo.com/100000005",
+      "videoId": "100000005"
+    },
+    {
+      "page": "SAW Videos",
+      "provider": "Vimeo",
+      "title": "Skill One",
+      "url": "https://vimeo.com/album/1/video/100000001",
+      "videoId": "100000001"
+    },
+    {
+      "page": "YLG Videos",
+      "provider": "Vimeo",
+      "title": "Lifeguard Synthetic",
+      "url": "https://vimeo.com/100000009/abc123",
+      "videoId": 100000009
+    }
+  ]
+}

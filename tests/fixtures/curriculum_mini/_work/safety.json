@@ -1,0 +1,16 @@
+[
+  {
+    "id": "single-inhalation",
+    "tags": [
+      "submerges"
+    ],
+    "text": "Made-up rule one: one breath before each time under."
+  },
+  {
+    "id": "deck-diving",
+    "tags": [
+      "dive"
+    ],
+    "text": "Made-up rule two: headfirst entries only in deep water."
+  }
+]

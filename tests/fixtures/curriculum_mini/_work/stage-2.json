@@ -1,0 +1,1859 @@
+{
+  "format": "curriculum-work/1",
+  "greeting": {
+    "activities": [
+      {
+        "ages": [
+          "P",
+          "S",
+          "A"
+        ],
+        "description": "Say hello and your name.",
+        "name": "Hello Game",
+        "page": 1
+      },
+      {
+        "ages": [
+          "P",
+          "S"
+        ],
+        "description": "Sing everyone's name.",
+        "name": "Name Song",
+        "page": 2,
+        "tags": [
+          "song"
+        ]
+      }
+    ],
+    "pages": [
+      1,
+      2
+    ]
+  },
+  "lessonTemplates": [
+    {
+      "blocks": [
+        {
+          "activities": [
+            "Hello Game",
+            "Name Song"
+          ],
+          "kind": "welcome",
+          "minutes": 5,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activities": [
+            "One Drill",
+            "One Relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 8,
+          "skills": [
+            {
+              "slug": "skill-one",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 0,
+          "notes": [
+            "No skills to review today."
+          ],
+          "skills": []
+        },
+        {
+          "activities": [
+            "Two Drill",
+            "Three Relay"
+          ],
+          "kind": "introduce",
+          "minutes": 7,
+          "skills": [
+            {
+              "slug": "skill-two",
+              "steps": [
+                1,
+                3
+              ]
+            },
+            {
+              "slug": "skill-three",
+              "steps": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.1"
+        },
+        {
+          "activities": [
+            "Four Drill",
+            "Splash Game"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skills": [
+            {
+              "slug": "skill-four",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "minutesTotal": 30,
+      "n": 1,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "activities": [
+            "Hello Game",
+            "Name Song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activities": [
+            "One Drill",
+            "One Relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skills": [
+            {
+              "slug": "skill-one",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "activities": [
+            "Two Drill"
+          ],
+          "kind": "review",
+          "minutes": 2,
+          "minutesPrinted": "1-2 mins.",
+          "skills": [
+            {
+              "slug": "skill-two"
+            }
+          ]
+        },
+        {
+          "activities": [
+            "Five Drill"
+          ],
+          "kind": "introduce",
+          "minutes": 10,
+          "skills": [
+            {
+              "slug": "skill-five"
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.2"
+        },
+        {
+          "activities": [
+            "Four Drill",
+            "Splash Game"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skills": [
+            {
+              "slug": "skill-four",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "minutesTotal": 30,
+      "n": 2,
+      "pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "activities": [
+            "Hello Game",
+            "Name Song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activities": [
+            "One Drill",
+            "One Relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skills": [
+            {
+              "slug": "skill-one",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "activities": [
+            "Three Drill",
+            "Five Relay"
+          ],
+          "kind": "review",
+          "minutes": 2,
+          "minutesPrinted": "1-2 mins.",
+          "skills": [
+            {
+              "slug": "skill-three"
+            },
+            {
+              "slug": "skill-five"
+            }
+          ]
+        },
+        {
+          "activities": [
+            "Six Drill",
+            "Six Relay"
+          ],
+          "kind": "introduce",
+          "minutes": 10,
+          "skills": [
+            {
+              "slug": "skill-six",
+              "steps": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.3"
+        },
+        {
+          "activities": [
+            "Four Drill",
+            "Splash Game"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skills": [
+            {
+              "slug": "skill-four",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "minutesTotal": 30,
+      "n": 3,
+      "pages": [
+        5,
+        6
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "activities": [
+            "Hello Game",
+            "Name Song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activities": [
+            "One Drill",
+            "One Relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skills": [
+            {
+              "slug": "skill-one",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "activities": [
+            "Three Drill",
+            "Five Relay"
+          ],
+          "kind": "review",
+          "minutes": 2,
+          "minutesPrinted": "1-2 mins.",
+          "skills": [
+            {
+              "slug": "skill-three"
+            },
+            {
+              "slug": "skill-five"
+            }
+          ]
+        },
+        {
+          "activities": [
+            "Seven Drill"
+          ],
+          "kind": "introduce",
+          "minutes": 10,
+          "skills": [
+            {
+              "slug": "skill-seven"
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.4"
+        },
+        {
+          "activities": [
+            "Four Drill",
+            "Splash Game"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skills": [
+            {
+              "slug": "skill-four",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "minutesTotal": 30,
+      "n": 4,
+      "pages": [
+        7,
+        8
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "activities": [
+            "Hello Game",
+            "Name Song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activities": [
+            "One Drill",
+            "One Relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skills": [
+            {
+              "slug": "skill-one",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 2,
+          "minutesPrinted": "1-2 mins.",
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skills": [
+            {
+              "slug": "any"
+            }
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skills": [
+            {
+              "slug": "any"
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.5"
+        },
+        {
+          "activities": [
+            "Four Drill",
+            "Splash Game"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skills": [
+            {
+              "slug": "skill-four",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "minutesTotal": 30,
+      "n": 5,
+      "pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "activities": [
+            "Hello Game",
+            "Name Song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activities": [
+            "One Drill",
+            "One Relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skills": [
+            {
+              "slug": "skill-one",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 2,
+          "minutesPrinted": "1-2 mins.",
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skills": [
+            {
+              "slug": "any"
+            }
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skills": [
+            {
+              "slug": "any"
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.6"
+        },
+        {
+          "activities": [
+            "Four Drill",
+            "Splash Game"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skills": [
+            {
+              "slug": "skill-four",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "minutesTotal": 30,
+      "n": 6,
+      "pages": [
+        11,
+        12
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "activities": [
+            "Hello Game",
+            "Name Song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activities": [
+            "One Drill",
+            "One Relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skills": [
+            {
+              "slug": "skill-one",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 2,
+          "minutesPrinted": "1-2 mins.",
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skills": [
+            {
+              "slug": "any"
+            }
+          ]
+        },
+        {
+          "activities": [
+            "Eight Left Drill"
+          ],
+          "kind": "introduce",
+          "minutes": 10,
+          "skills": [
+            {
+              "slug": "skill-eight-left"
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.7"
+        },
+        {
+          "activities": [
+            "Four Drill",
+            "Splash Game"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skills": [
+            {
+              "slug": "skill-four",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "minutesTotal": 30,
+      "n": 7,
+      "pages": [
+        13,
+        14
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "activities": [
+            "Hello Game",
+            "Name Song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activities": [
+            "One Drill",
+            "One Relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skills": [
+            {
+              "slug": "skill-one",
+              "steps": [
+                1,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 2,
+          "minutesPrinted": "1-2 mins.",
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skills": [
+            {
+              "slug": "any"
+            }
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skills": [
+            {
+              "slug": "any"
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "2.8"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Play a group game with everyone.",
+            "Let the swimmers choose."
+          ],
+          "skills": []
+        }
+      ],
+      "minutesTotal": 30,
+      "n": 8,
+      "pages": [
+        15,
+        16
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "activities": [
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Practise skill one with a partner, then alone.",
+          "name": "One Drill",
+          "page": 4,
+          "tags": [
+            "drill"
+          ]
+        },
+        {
+          "ages": [
+            "S",
+            "A"
+          ],
+          "description": "A relay race that repeats skill one across the pool.",
+          "equipment": [
+            [
+              "kickboard"
+            ]
+          ],
+          "name": "One Relay",
+          "page": 4,
+          "tags": [
+            "game"
+          ]
+        },
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Dip the chin, then the nose.",
+          "name": "Dip Game",
+          "page": 4,
+          "submerges": true
+        }
+      ],
+      "advanced": [
+        {
+          "n": 1,
+          "name": "Skill One, step 1",
+          "skill": "skill-one",
+          "stage": "3"
+        },
+        {
+          "n": 2,
+          "name": "Skill One, step 2",
+          "skill": "skill-one",
+          "stage": "3"
+        },
+        {
+          "n": 3,
+          "name": "Skill One, step 3",
+          "skill": "skill-one",
+          "stage": "3"
+        },
+        {
+          "n": 4,
+          "name": "Skill One, step 4",
+          "skill": "skill-one",
+          "stage": "3"
+        }
+      ],
+      "isBenchmarkSequence": false,
+      "name": "Skill One",
+      "order": 1,
+      "pages": {
+        "activities": 4,
+        "progression": 3
+      },
+      "prerequisite": [
+        {
+          "n": 1,
+          "name": "Skill One, step 1",
+          "skill": "skill-one",
+          "stage": "1"
+        },
+        {
+          "n": 2,
+          "name": "Skill One, step 2",
+          "skill": "skill-one",
+          "stage": "1"
+        },
+        {
+          "n": 3,
+          "name": "Skill One, step 3",
+          "skill": "skill-one",
+          "stage": "1"
+        },
+        {
+          "n": 4,
+          "name": "Skill One, step 4",
+          "skill": "skill-one",
+          "stage": "1"
+        }
+      ],
+      "slug": "skill-one",
+      "steps": [
+        {
+          "depths": [
+            "shallow"
+          ],
+          "description": "Synthetic description of skill one, step 1.",
+          "n": 1,
+          "name": "Skill One, step 1"
+        },
+        {
+          "description": "Synthetic description of skill one, step 2.",
+          "n": 2,
+          "name": "Skill One, step 2"
+        },
+        {
+          "description": "Synthetic description of skill one, step 3.",
+          "n": 3,
+          "name": "Skill One, step 3",
+          "submerges": true
+        },
+        {
+          "description": "Synthetic description of skill one, step 4.",
+          "n": 4,
+          "name": "Skill One, step 4"
+        }
+      ]
+    },
+    {
+      "activities": [
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Practise skill two with a partner, then alone.",
+          "name": "Two Drill",
+          "page": 6,
+          "tags": [
+            "drill"
+          ]
+        },
+        {
+          "ages": [
+            "S",
+            "A"
+          ],
+          "description": "A relay race that repeats skill two across the pool.",
+          "equipment": [
+            [
+              "kickboard"
+            ]
+          ],
+          "name": "Two Relay",
+          "page": 6,
+          "tags": [
+            "game"
+          ]
+        },
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Race holding a noodle or a rescue tube.",
+          "equipment": [
+            [
+              "pool-noodle",
+              "rescue-tube"
+            ]
+          ],
+          "name": "Noodle Race",
+          "page": 6
+        }
+      ],
+      "advanced": [
+        {
+          "n": 1,
+          "name": "Skill Two, step 1",
+          "skill": "skill-two",
+          "stage": "3"
+        },
+        {
+          "n": 2,
+          "name": "Skill Two, step 2",
+          "skill": "skill-two",
+          "stage": "3"
+        },
+        {
+          "n": 3,
+          "name": "Skill Two, step 3",
+          "skill": "skill-two",
+          "stage": "3"
+        }
+      ],
+      "isBenchmarkSequence": false,
+      "name": "Skill Two",
+      "order": 2,
+      "pages": {
+        "activities": 6,
+        "progression": 5
+      },
+      "prerequisite": [
+        {
+          "n": 1,
+          "name": "Skill Two, step 1",
+          "skill": "skill-two",
+          "stage": "1"
+        },
+        {
+          "n": 2,
+          "name": "Skill Two, step 2",
+          "skill": "skill-two",
+          "stage": "1"
+        },
+        {
+          "n": 3,
+          "name": "Skill Two, step 3",
+          "skill": "skill-two",
+          "stage": "1"
+        }
+      ],
+      "slug": "skill-two",
+      "steps": [
+        {
+          "description": "Synthetic description of skill two, step 1.",
+          "n": 1,
+          "name": "Skill Two, step 1"
+        },
+        {
+          "description": "Synthetic description of skill two, step 2.",
+          "n": 2,
+          "name": "Skill Two, step 2"
+        },
+        {
+          "description": "Synthetic description of skill two, step 3.",
+          "measure": {
+            "kind": "distance",
+            "preschoolValue": 5,
+            "unit": "ft",
+            "value": 10
+          },
+          "n": 3,
+          "name": "Skill Two, step 3"
+        }
+      ]
+    },
+    {
+      "activities": [
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Practise skill three with a partner, then alone.",
+          "name": "Three Drill",
+          "page": 8,
+          "tags": [
+            "drill"
+          ]
+        },
+        {
+          "ages": [
+            "S",
+            "A"
+          ],
+          "description": "A relay race that repeats skill three across the pool.",
+          "equipment": [
+            [
+              "kickboard"
+            ]
+          ],
+          "name": "Three Relay",
+          "page": 8,
+          "tags": [
+            "game"
+          ]
+        },
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Everyone  plays together in a circle.",
+          "name": "Shared Game",
+          "page": 8,
+          "tags": [
+            "game"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "n": 1,
+          "name": "Skill Three, step 1",
+          "skill": "skill-three",
+          "stage": "3"
+        },
+        {
+          "n": 2,
+          "name": "Skill Three, step 2",
+          "skill": "skill-three",
+          "stage": "3"
+        }
+      ],
+      "isBenchmarkSequence": false,
+      "name": "Skill Three",
+      "order": 3,
+      "pages": {
+        "activities": 8,
+        "progression": 7
+      },
+      "prerequisite": [
+        {
+          "n": 1,
+          "name": "Skill Three, step 1",
+          "skill": "skill-three",
+          "stage": "1"
+        },
+        {
+          "n": 2,
+          "name": "Skill Three, step 2",
+          "skill": "skill-three",
+          "stage": "1"
+        }
+      ],
+      "slug": "skill-three",
+      "steps": [
+        {
+          "description": "Synthetic description of skill three, step 1.",
+          "n": 1,
+          "name": "Skill Three, step 1"
+        },
+        {
+          "description": "Synthetic description of skill three, step 2.",
+          "n": 2,
+          "name": "Skill Three, step 2"
+        }
+      ]
+    },
+    {
+      "activities": [
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Practise skill four with a partner, then alone.",
+          "name": "Four Drill",
+          "page": 10,
+          "tags": [
+            "drill"
+          ]
+        },
+        {
+          "ages": [
+            "S",
+            "A"
+          ],
+          "description": "A relay race that repeats skill four across the pool.",
+          "equipment": [
+            [
+              "kickboard"
+            ]
+          ],
+          "name": "Four Relay",
+          "page": 10,
+          "tags": [
+            "game"
+          ]
+        },
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Jump in and make a splash.",
+          "name": "Splash Game",
+          "page": 10,
+          "submerges": true,
+          "tags": [
+            "jump"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "n": 1,
+          "name": "Skill Four, step 1",
+          "skill": "skill-four",
+          "stage": "3"
+        },
+        {
+          "n": 2,
+          "name": "Skill Four, step 2",
+          "skill": "skill-four",
+          "stage": "3"
+        },
+        {
+          "n": 3,
+          "name": "Skill Four, step 3",
+          "skill": "skill-four",
+          "stage": "3"
+        },
+        {
+          "n": 4,
+          "name": "Skill Four, step 4",
+          "skill": "skill-four",
+          "stage": "3"
+        }
+      ],
+      "isBenchmarkSequence": true,
+      "name": "Skill Four",
+      "order": 4,
+      "pages": {
+        "activities": 10,
+        "progression": 9
+      },
+      "prerequisite": [
+        {
+          "n": 1,
+          "name": "Skill Four, step 1",
+          "skill": "skill-four",
+          "stage": "1"
+        },
+        {
+          "n": 2,
+          "name": "Skill Four, step 2",
+          "skill": "skill-four",
+          "stage": "1"
+        },
+        {
+          "n": 3,
+          "name": "Skill Four, step 3",
+          "skill": "skill-four",
+          "stage": "1"
+        },
+        {
+          "n": 4,
+          "name": "Skill Four, step 4",
+          "skill": "skill-four",
+          "stage": "1"
+        }
+      ],
+      "slug": "skill-four",
+      "steps": [
+        {
+          "description": "Synthetic description of skill four, step 1.",
+          "n": 1,
+          "name": "Skill Four, step 1"
+        },
+        {
+          "description": "Synthetic description of skill four, step 2.",
+          "n": 2,
+          "name": "Skill Four, step 2",
+          "reachBottom": true
+        },
+        {
+          "description": "Synthetic description of skill four, step 3.",
+          "n": 3,
+          "name": "Skill Four, step 3",
+          "reachBottom": true
+        },
+        {
+          "description": "Synthetic description of skill four, step 4.",
+          "n": 4,
+          "name": "Skill Four, step 4",
+          "reachBottom": true
+        }
+      ]
+    },
+    {
+      "activities": [
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Practise skill five with a partner, then alone.",
+          "name": "Five Drill",
+          "page": 12,
+          "tags": [
+            "drill"
+          ]
+        },
+        {
+          "ages": [
+            "S",
+            "A"
+          ],
+          "description": "A relay race that repeats skill five across the pool.",
+          "equipment": [
+            [
+              "kickboard"
+            ]
+          ],
+          "name": "Five Relay",
+          "page": 12,
+          "tags": [
+            "game"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "n": 1,
+          "name": "Skill Five, step 1",
+          "skill": "skill-five",
+          "stage": "3"
+        }
+      ],
+      "isBenchmarkSequence": false,
+      "name": "Skill Five",
+      "order": 5,
+      "pages": {
+        "activities": 12,
+        "progression": 11
+      },
+      "prerequisite": [
+        {
+          "n": 1,
+          "name": "Skill Five, step 1",
+          "skill": "skill-five",
+          "stage": "1"
+        }
+      ],
+      "slug": "skill-five",
+      "steps": [
+        {
+          "description": "Synthetic description of skill five, step 1.",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          },
+          "n": 1,
+          "name": "Skill Five, step 1"
+        }
+      ]
+    },
+    {
+      "activities": [
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Practise skill six with a partner, then alone.",
+          "name": "Six Drill",
+          "page": 14,
+          "tags": [
+            "drill"
+          ]
+        },
+        {
+          "ages": [
+            "S",
+            "A"
+          ],
+          "description": "A relay race that repeats skill six across the pool.",
+          "equipment": [
+            [
+              "kickboard"
+            ]
+          ],
+          "name": "Six Relay",
+          "page": 14,
+          "tags": [
+            "game"
+          ]
+        },
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Leap through a floating hoop. Variation: go through it head first.",
+          "equipment": [
+            [
+              "hoop"
+            ]
+          ],
+          "name": "Hoop Leap",
+          "page": 14,
+          "submerges": true,
+          "tags": [
+            "jump"
+          ]
+        },
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "depths": [
+            "deep"
+          ],
+          "description": "Leap through a floating hoop. Variation: go through it head first.",
+          "equipment": [
+            [
+              "hoop"
+            ]
+          ],
+          "headfirst": true,
+          "name": "Hoop Leap",
+          "page": 14,
+          "submerges": true,
+          "tags": [
+            "dive"
+          ],
+          "variant": "dive"
+        }
+      ],
+      "advanced": [
+        {
+          "n": 1,
+          "name": "Skill Six, step 1",
+          "skill": "skill-six",
+          "stage": "3"
+        },
+        {
+          "n": 2,
+          "name": "Skill Six, step 2",
+          "skill": "skill-six",
+          "stage": "3"
+        },
+        {
+          "n": 3,
+          "name": "Skill Six, step 3",
+          "skill": "skill-six",
+          "stage": "3"
+        }
+      ],
+      "isBenchmarkSequence": false,
+      "name": "Skill Six",
+      "order": 6,
+      "pages": {
+        "activities": 14,
+        "progression": 13
+      },
+      "prerequisite": [
+        {
+          "n": 1,
+          "name": "Skill Six, step 1",
+          "skill": "skill-six",
+          "stage": "1"
+        },
+        {
+          "n": 2,
+          "name": "Skill Six, step 2",
+          "skill": "skill-six",
+          "stage": "1"
+        },
+        {
+          "n": 3,
+          "name": "Skill Six, step 3",
+          "skill": "skill-six",
+          "stage": "1"
+        }
+      ],
+      "slug": "skill-six",
+      "steps": [
+        {
+          "description": "Synthetic description of skill six, step 1.",
+          "n": 1,
+          "name": "Skill Six, step 1"
+        },
+        {
+          "description": "Synthetic description of skill six, step 2.",
+          "n": 2,
+          "name": "Skill Six, step 2"
+        },
+        {
+          "description": "Synthetic description of skill six, step 3.",
+          "n": 3,
+          "name": "Skill Six, step 3"
+        }
+      ]
+    },
+    {
+      "activities": [
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Practise skill seven with a partner, then alone.",
+          "name": "Seven Drill",
+          "page": 16,
+          "tags": [
+            "drill"
+          ]
+        },
+        {
+          "ages": [
+            "S",
+            "A"
+          ],
+          "description": "A relay race that repeats skill seven across the pool.",
+          "equipment": [
+            [
+              "kickboard"
+            ]
+          ],
+          "name": "Seven Relay",
+          "page": 16,
+          "tags": [
+            "game"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "n": 1,
+          "name": "Skill Seven, step 1",
+          "skill": "skill-seven",
+          "stage": "3"
+        },
+        {
+          "n": 2,
+          "name": "Skill Seven, step 2",
+          "skill": "skill-seven",
+          "stage": "3"
+        }
+      ],
+      "isBenchmarkSequence": false,
+      "name": "Skill Seven",
+      "order": 7,
+      "pages": {
+        "activities": 16,
+        "progression": 15
+      },
+      "prerequisite": [
+        {
+          "n": 1,
+          "name": "Skill Seven, step 1",
+          "skill": "skill-seven",
+          "stage": "1"
+        },
+        {
+          "n": 2,
+          "name": "Skill Seven, step 2",
+          "skill": "skill-seven",
+          "stage": "1"
+        }
+      ],
+      "slug": "skill-seven",
+      "steps": [
+        {
+          "depths": [
+            "medium",
+            "deep"
+          ],
+          "description": "Synthetic description of skill seven, step 1.",
+          "equipment": [
+            [
+              "life-jacket",
+              "float-belt"
+            ]
+          ],
+          "n": 1,
+          "name": "Skill Seven, step 1"
+        },
+        {
+          "depths": [
+            "medium",
+            "deep"
+          ],
+          "description": "Synthetic description of skill seven, step 2.",
+          "equipment": [
+            [
+              "life-jacket",
+              "float-belt"
+            ]
+          ],
+          "n": 2,
+          "name": "Skill Seven, step 2"
+        },
+        {
+          "depths": [
+            "medium",
+            "deep"
+          ],
+          "description": "Synthetic description of skill seven, step 3.",
+          "equipment": [
+            [
+              "life-jacket",
+              "float-belt"
+            ]
+          ],
+          "n": 3,
+          "name": "Skill Seven, step 3"
+        },
+        {
+          "depths": [
+            "medium",
+            "deep"
+          ],
+          "description": "Synthetic description of skill seven, step 4.",
+          "n": 4,
+          "name": "Skill Seven, step 4",
+          "nearWall": true
+        }
+      ]
+    },
+    {
+      "activities": [
+        {
+          "ages": [
+            "P",
+            "S",
+            "A"
+          ],
+          "description": "Practise skill eight left with a partner, then alone.",
+          "name": "Eight Left Drill",
+          "page": 18,
+          "tags": [
+            "drill"
+          ]
+        },
+        {
+          "ages": [
+            "S",
+            "A"
+          ],
+          "description": "A relay race that repeats skill eight left across the pool.",
+          "equipment": [
+            [
+              "kickboard"
+            ]
+          ],
+          "name": "Eight Left Relay",
+          "page": 18,
+          "tags": [
+            "game"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "n": 1,
+          "name": "Skill Eight Left, step 1",
+          "skill": "skill-eight-left",
+          "stage": "3"
+        },
+        {
+          "n": 2,
+          "name": "Skill Eight Left, step 2",
+          "skill": "skill-eight-left",
+          "stage": "3"
+        }
+      ],
+      "isBenchmarkSequence": false,
+      "name": "Skill Eight Left",
+      "order": 8,
+      "pages": {
+        "activities": 18,
+        "progression": 17
+      },
+      "prerequisite": [
+        {
+          "n": 1,
+          "name": "Skill Eight Left, step 1",
+          "skill": "skill-eight-left",
+          "stage": "1"
+        },
+        {
+          "n": 2,
+          "name": "Skill Eight Left, step 2",
+          "skill": "skill-eight-left",
+          "stage": "1"
+        }
+      ],
+      "slug": "skill-eight-left",
+      "steps": [
+        {
+          "description": "Synthetic description of skill eight left, step 1.",
+          "n": 1,
+          "name": "Skill Eight Left, step 1"
+        },
+        {
+          "description": "Synthetic description of skill eight left, step 2.",
+          "n": 2,
+          "name": "Skill Eight Left, step 2"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "guide": "synthetic-guide-2.pdf",
+    "library": "synthetic-library-2.pdf",
+    "overviewPages": "1",
+    "trackerPages": "1-2"
+  },
+  "stage": {
+    "ageGroups": [
+      "preschool",
+      "schoolAge",
+      "teen",
+      "adult"
+    ],
+    "group": "Synthetic Basics",
+    "id": "2",
+    "lessonMinutes": 30,
+    "milestones": [
+      "Milestone one.",
+      "Milestone two.",
+      "Milestone three."
+    ],
+    "name": "Stage Two",
+    "warmUpSkill": "skill-one",
+    "wrapUpSkill": "skill-four"
+  },
+  "topics": [
+    {
+      "code": "2.1",
+      "n": 1,
+      "name": "Topic One",
+      "notes": [],
+      "page": 21,
+      "prompts": [
+        "Ask question 1: expect answer 1."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "2.2",
+      "n": 2,
+      "name": "Topic Two",
+      "notes": [],
+      "page": 22,
+      "prompts": [
+        "Ask question 2: expect answer 2."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "2.3",
+      "n": 3,
+      "name": "Topic Three",
+      "notes": [],
+      "page": 23,
+      "prompts": [
+        "Ask question 3: expect answer 3."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "2.4",
+      "n": 4,
+      "name": "Topic Four",
+      "notes": [],
+      "page": 24,
+      "prompts": [
+        "Ask question 4: expect answer 4."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "2.5",
+      "n": 5,
+      "name": "Topic Five",
+      "notes": [],
+      "page": 25,
+      "prompts": [
+        "Ask question 5: expect answer 5."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "2.6",
+      "n": 6,
+      "name": "Topic Six",
+      "notes": [
+        "Bring a prop."
+      ],
+      "page": 26,
+      "prompts": [
+        "Ask question 6: expect answer 6."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "2.7",
+      "n": 7,
+      "name": "Topic Seven",
+      "notes": [],
+      "page": 27,
+      "prompts": [
+        "Ask question 7: expect answer 7."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "2.8",
+      "n": 8,
+      "name": "Topic Eight",
+      "notes": [],
+      "page": 28,
+      "prompts": [
+        "Ask question 8: expect answer 8."
+      ],
+      "summary": "Synthetic topic summary."
+    }
+  ],
+  "trackerRows": [
+    {
+      "preschool": null,
+      "rule": "all",
+      "steps": [
+        {
+          "n": 4,
+          "skill": "skill-one"
+        }
+      ],
+      "text": "Skill One, step 4"
+    },
+    {
+      "preschool": "5 ft. preschool",
+      "rule": "all",
+      "steps": [
+        {
+          "n": 3,
+          "skill": "skill-two"
+        }
+      ],
+      "text": "Skill Two, step 3"
+    },
+    {
+      "preschool": null,
+      "rule": "all",
+      "steps": [
+        {
+          "n": 2,
+          "skill": "skill-three"
+        }
+      ],
+      "text": "Skill Three, step 2"
+    },
+    {
+      "preschool": null,
+      "rule": "all",
+      "steps": [
+        {
+          "n": 4,
+          "skill": "skill-four"
+        }
+      ],
+      "text": "Skill Four, step 4"
+    },
+    {
+      "preschool": null,
+      "rule": "all",
+      "steps": [
+        {
+          "n": 1,
+          "skill": "skill-five"
+        }
+      ],
+      "text": "Skill Five, step 1"
+    },
+    {
+      "preschool": null,
+      "rule": "all",
+      "steps": [
+        {
+          "n": 3,
+          "skill": "skill-six"
+        }
+      ],
+      "text": "Skill Six, step 3"
+    },
+    {
+      "preschool": null,
+      "rule": "all",
+      "steps": [
+        {
+          "n": 4,
+          "skill": "skill-seven"
+        }
+      ],
+      "text": "Skill Seven, step 4"
+    },
+    {
+      "preschool": null,
+      "rule": "all",
+      "steps": [
+        {
+          "n": 2,
+          "skill": "skill-eight-left"
+        }
+      ],
+      "text": "Skill Eight Left, step 2"
+    }
+  ],
+  "uncertain": []
+}

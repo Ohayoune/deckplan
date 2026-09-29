@@ -1,0 +1,1086 @@
+{
+  "ageGroups": [
+    "infantToddler"
+  ],
+  "greetingActivityIds": [
+    "hello-game",
+    "name-song"
+  ],
+  "group": "Synthetic Starters",
+  "id": "B",
+  "lessonMinutes": 30,
+  "lessonTemplates": [
+    {
+      "blocks": [
+        {
+          "activityIds": [
+            "hello-game",
+            "name-song"
+          ],
+          "kind": "welcome",
+          "minutes": 5,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activityIds": [
+            "one-drill",
+            "one-relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 8,
+          "skillIds": [
+            "B.skill-one"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 0,
+          "notes": [
+            "No skills to review today."
+          ]
+        },
+        {
+          "activityIds": [
+            "two-drill",
+            "three-relay"
+          ],
+          "kind": "introduce",
+          "minutes": 7,
+          "skillIds": [
+            "B.skill-two",
+            "B.skill-three"
+          ],
+          "stepRange": [
+            1,
+            3
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "B.1"
+        },
+        {
+          "activityIds": [
+            "four-drill"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skillIds": [
+            "B.skill-four"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        }
+      ],
+      "minutes": 30,
+      "n": 1
+    },
+    {
+      "blocks": [
+        {
+          "activityIds": [
+            "hello-game",
+            "name-song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activityIds": [
+            "one-drill",
+            "one-relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skillIds": [
+            "B.skill-one"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        },
+        {
+          "activityIds": [
+            "two-drill"
+          ],
+          "kind": "review",
+          "minutes": 2,
+          "skillIds": [
+            "B.skill-two"
+          ]
+        },
+        {
+          "activityIds": [
+            "five-drill"
+          ],
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "B.skill-five"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "B.2"
+        },
+        {
+          "activityIds": [
+            "four-drill"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skillIds": [
+            "B.skill-four"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        }
+      ],
+      "minutes": 30,
+      "n": 2
+    },
+    {
+      "blocks": [
+        {
+          "activityIds": [
+            "hello-game",
+            "name-song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activityIds": [
+            "one-drill",
+            "one-relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skillIds": [
+            "B.skill-one"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        },
+        {
+          "activityIds": [
+            "three-drill",
+            "five-relay"
+          ],
+          "kind": "review",
+          "minutes": 2,
+          "skillIds": [
+            "B.skill-three",
+            "B.skill-five"
+          ]
+        },
+        {
+          "activityIds": [
+            "six-drill",
+            "six-relay"
+          ],
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "B.skill-six"
+          ],
+          "stepRange": [
+            1,
+            3
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "B.3"
+        },
+        {
+          "activityIds": [
+            "four-drill"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skillIds": [
+            "B.skill-four"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        }
+      ],
+      "minutes": 30,
+      "n": 3
+    },
+    {
+      "blocks": [
+        {
+          "activityIds": [
+            "hello-game",
+            "name-song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activityIds": [
+            "one-drill",
+            "one-relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skillIds": [
+            "B.skill-one"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        },
+        {
+          "activityIds": [
+            "three-drill",
+            "five-relay"
+          ],
+          "kind": "review",
+          "minutes": 2,
+          "skillIds": [
+            "B.skill-three",
+            "B.skill-five"
+          ]
+        },
+        {
+          "activityIds": [
+            "seven-drill"
+          ],
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "B.skill-seven"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "B.4"
+        },
+        {
+          "activityIds": [
+            "four-drill"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skillIds": [
+            "B.skill-four"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        }
+      ],
+      "minutes": 30,
+      "n": 4
+    },
+    {
+      "blocks": [
+        {
+          "activityIds": [
+            "hello-game",
+            "name-song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activityIds": [
+            "one-drill",
+            "one-relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skillIds": [
+            "B.skill-one"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 2,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skillIds": [
+            "any"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skillIds": [
+            "any"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "B.5"
+        },
+        {
+          "activityIds": [
+            "four-drill"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skillIds": [
+            "B.skill-four"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        }
+      ],
+      "minutes": 30,
+      "n": 5
+    },
+    {
+      "blocks": [
+        {
+          "activityIds": [
+            "hello-game",
+            "name-song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activityIds": [
+            "one-drill",
+            "one-relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skillIds": [
+            "B.skill-one"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 2,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skillIds": [
+            "any"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skillIds": [
+            "any"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "B.6"
+        },
+        {
+          "activityIds": [
+            "four-drill"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skillIds": [
+            "B.skill-four"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        }
+      ],
+      "minutes": 30,
+      "n": 6
+    },
+    {
+      "blocks": [
+        {
+          "activityIds": [
+            "hello-game",
+            "name-song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activityIds": [
+            "one-drill",
+            "one-relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skillIds": [
+            "B.skill-one"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 2,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skillIds": [
+            "any"
+          ]
+        },
+        {
+          "activityIds": [
+            "eight-left-drill"
+          ],
+          "kind": "introduce",
+          "minutes": 10,
+          "skillIds": [
+            "B.skill-eight-left"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "B.7"
+        },
+        {
+          "activityIds": [
+            "four-drill"
+          ],
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Celebrate progress."
+          ],
+          "skillIds": [
+            "B.skill-four"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        }
+      ],
+      "minutes": 30,
+      "n": 7
+    },
+    {
+      "blocks": [
+        {
+          "activityIds": [
+            "hello-game",
+            "name-song"
+          ],
+          "kind": "welcome",
+          "minutes": 3,
+          "notes": [
+            "Say hello."
+          ]
+        },
+        {
+          "activityIds": [
+            "one-drill",
+            "one-relay"
+          ],
+          "kind": "warmUp",
+          "minutes": 5,
+          "skillIds": [
+            "B.skill-one"
+          ],
+          "stepRange": [
+            1,
+            4
+          ]
+        },
+        {
+          "kind": "review",
+          "minutes": 2,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skillIds": [
+            "any"
+          ]
+        },
+        {
+          "kind": "introduce",
+          "minutes": 10,
+          "notes": [
+            "Practise what needs work."
+          ],
+          "skillIds": [
+            "any"
+          ]
+        },
+        {
+          "kind": "topic",
+          "minutes": 5,
+          "topicCode": "B.8"
+        },
+        {
+          "kind": "wrapUp",
+          "minutes": 5,
+          "notes": [
+            "Play a group game with everyone.",
+            "Let the swimmers choose."
+          ]
+        }
+      ],
+      "minutes": 30,
+      "n": 8
+    }
+  ],
+  "milestones": [
+    "Milestone one.",
+    "Milestone two.",
+    "Milestone three."
+  ],
+  "name": "Stage Beta",
+  "skills": [
+    {
+      "activityIds": [
+        "one-drill",
+        "one-relay"
+      ],
+      "advancedStepIds": [
+        "1.skill-one.1",
+        "1.skill-one.2",
+        "1.skill-one.3",
+        "1.skill-one.4"
+      ],
+      "benchmarkStepId": "B.skill-one.4",
+      "id": "B.skill-one",
+      "isBenchmarkSequence": false,
+      "name": "Skill One",
+      "order": 1,
+      "prerequisiteStepIds": [
+        "A.skill-one.1",
+        "A.skill-one.2",
+        "A.skill-one.3",
+        "A.skill-one.4"
+      ],
+      "steps": [
+        {
+          "depths": [
+            "shallow"
+          ],
+          "description": "Synthetic description of skill one, step 1.",
+          "id": "B.skill-one.1",
+          "n": 1,
+          "name": "Skill One, step 1"
+        },
+        {
+          "description": "Synthetic description of skill one, step 2.",
+          "id": "B.skill-one.2",
+          "n": 2,
+          "name": "Skill One, step 2"
+        },
+        {
+          "description": "Synthetic description of skill one, step 3.",
+          "id": "B.skill-one.3",
+          "n": 3,
+          "name": "Skill One, step 3",
+          "submerges": true
+        },
+        {
+          "description": "Synthetic description of skill one, step 4.",
+          "id": "B.skill-one.4",
+          "n": 4,
+          "name": "Skill One, step 4"
+        }
+      ],
+      "videoIds": []
+    },
+    {
+      "activityIds": [
+        "two-drill",
+        "two-relay"
+      ],
+      "advancedStepIds": [
+        "1.skill-two.1",
+        "1.skill-two.2",
+        "1.skill-two.3"
+      ],
+      "benchmarkStepId": "B.skill-two.3",
+      "id": "B.skill-two",
+      "isBenchmarkSequence": false,
+      "name": "Skill Two",
+      "order": 2,
+      "prerequisiteStepIds": [
+        "A.skill-two.1",
+        "A.skill-two.2",
+        "A.skill-two.3"
+      ],
+      "steps": [
+        {
+          "description": "Synthetic description of skill two, step 1.",
+          "id": "B.skill-two.1",
+          "n": 1,
+          "name": "Skill Two, step 1"
+        },
+        {
+          "description": "Synthetic description of skill two, step 2.",
+          "id": "B.skill-two.2",
+          "n": 2,
+          "name": "Skill Two, step 2"
+        },
+        {
+          "description": "Synthetic description of skill two, step 3.",
+          "id": "B.skill-two.3",
+          "n": 3,
+          "name": "Skill Two, step 3"
+        }
+      ],
+      "videoIds": [
+        "vimeo:100000002"
+      ]
+    },
+    {
+      "activityIds": [
+        "three-drill",
+        "three-relay"
+      ],
+      "advancedStepIds": [
+        "1.skill-three.1",
+        "1.skill-three.2"
+      ],
+      "benchmarkStepId": "B.skill-three.2",
+      "id": "B.skill-three",
+      "isBenchmarkSequence": false,
+      "name": "Skill Three",
+      "order": 3,
+      "prerequisiteStepIds": [
+        "A.skill-three.1",
+        "A.skill-three.2"
+      ],
+      "steps": [
+        {
+          "description": "Synthetic description of skill three, step 1.",
+          "id": "B.skill-three.1",
+          "n": 1,
+          "name": "Skill Three, step 1"
+        },
+        {
+          "description": "Synthetic description of skill three, step 2.",
+          "id": "B.skill-three.2",
+          "n": 2,
+          "name": "Skill Three, step 2"
+        }
+      ],
+      "videoIds": [
+        "vimeo:100000002"
+      ]
+    },
+    {
+      "activityIds": [
+        "four-drill",
+        "four-relay"
+      ],
+      "advancedStepIds": [
+        "1.skill-four.1",
+        "1.skill-four.2",
+        "1.skill-four.3",
+        "1.skill-four.4"
+      ],
+      "benchmarkStepId": "B.skill-four.4",
+      "id": "B.skill-four",
+      "isBenchmarkSequence": true,
+      "name": "Skill Four",
+      "order": 4,
+      "prerequisiteStepIds": [
+        "A.skill-four.1",
+        "A.skill-four.2",
+        "A.skill-four.3",
+        "A.skill-four.4"
+      ],
+      "steps": [
+        {
+          "description": "Synthetic description of skill four, step 1.",
+          "id": "B.skill-four.1",
+          "n": 1,
+          "name": "Skill Four, step 1"
+        },
+        {
+          "description": "Synthetic description of skill four, step 2.",
+          "id": "B.skill-four.2",
+          "n": 2,
+          "name": "Skill Four, step 2"
+        },
+        {
+          "description": "Synthetic description of skill four, step 3.",
+          "id": "B.skill-four.3",
+          "n": 3,
+          "name": "Skill Four, step 3"
+        },
+        {
+          "description": "Synthetic description of skill four, step 4.",
+          "id": "B.skill-four.4",
+          "n": 4,
+          "name": "Skill Four, step 4"
+        }
+      ],
+      "videoIds": []
+    },
+    {
+      "activityIds": [
+        "five-drill",
+        "five-relay"
+      ],
+      "advancedStepIds": [
+        "1.skill-five.1"
+      ],
+      "benchmarkStepId": "B.skill-five.1",
+      "id": "B.skill-five",
+      "isBenchmarkSequence": false,
+      "name": "Skill Five",
+      "order": 5,
+      "prerequisiteStepIds": [
+        "A.skill-five.1"
+      ],
+      "steps": [
+        {
+          "description": "Synthetic description of skill five, step 1.",
+          "id": "B.skill-five.1",
+          "measure": {
+            "kind": "distance",
+            "unit": "yd",
+            "value": 15
+          },
+          "n": 1,
+          "name": "Skill Five, step 1"
+        }
+      ],
+      "videoIds": []
+    },
+    {
+      "activityIds": [
+        "six-drill",
+        "six-relay"
+      ],
+      "advancedStepIds": [
+        "1.skill-six.1",
+        "1.skill-six.2",
+        "1.skill-six.3"
+      ],
+      "benchmarkStepId": "B.skill-six.3",
+      "id": "B.skill-six",
+      "isBenchmarkSequence": false,
+      "name": "Skill Six",
+      "order": 6,
+      "prerequisiteStepIds": [
+        "A.skill-six.1",
+        "A.skill-six.2",
+        "A.skill-six.3"
+      ],
+      "steps": [
+        {
+          "description": "Synthetic description of skill six, step 1.",
+          "id": "B.skill-six.1",
+          "n": 1,
+          "name": "Skill Six, step 1"
+        },
+        {
+          "description": "Synthetic description of skill six, step 2.",
+          "id": "B.skill-six.2",
+          "n": 2,
+          "name": "Skill Six, step 2"
+        },
+        {
+          "description": "Synthetic description of skill six, step 3.",
+          "id": "B.skill-six.3",
+          "n": 3,
+          "name": "Skill Six, step 3"
+        }
+      ],
+      "videoIds": []
+    },
+    {
+      "activityIds": [
+        "seven-drill",
+        "seven-relay"
+      ],
+      "advancedStepIds": [
+        "1.skill-seven.1",
+        "1.skill-seven.2"
+      ],
+      "benchmarkStepId": "B.skill-seven.2",
+      "id": "B.skill-seven",
+      "isBenchmarkSequence": false,
+      "name": "Skill Seven",
+      "order": 7,
+      "prerequisiteStepIds": [
+        "A.skill-seven.1",
+        "A.skill-seven.2"
+      ],
+      "steps": [
+        {
+          "description": "Synthetic description of skill seven, step 1.",
+          "id": "B.skill-seven.1",
+          "n": 1,
+          "name": "Skill Seven, step 1"
+        },
+        {
+          "description": "Synthetic description of skill seven, step 2.",
+          "id": "B.skill-seven.2",
+          "n": 2,
+          "name": "Skill Seven, step 2"
+        }
+      ],
+      "videoIds": []
+    },
+    {
+      "activityIds": [
+        "eight-left-drill",
+        "eight-left-relay"
+      ],
+      "advancedStepIds": [
+        "1.skill-eight-left.1",
+        "1.skill-eight-left.2"
+      ],
+      "benchmarkStepId": "B.skill-eight-left.2",
+      "id": "B.skill-eight-left",
+      "isBenchmarkSequence": false,
+      "name": "Skill Eight Left",
+      "order": 8,
+      "prerequisiteStepIds": [
+        "A.skill-eight-left.1",
+        "A.skill-eight-left.2"
+      ],
+      "steps": [
+        {
+          "description": "Synthetic description of skill eight left, step 1.",
+          "id": "B.skill-eight-left.1",
+          "n": 1,
+          "name": "Skill Eight Left, step 1"
+        },
+        {
+          "description": "Synthetic description of skill eight left, step 2.",
+          "id": "B.skill-eight-left.2",
+          "n": 2,
+          "name": "Skill Eight Left, step 2"
+        }
+      ],
+      "videoIds": []
+    }
+  ],
+  "topics": [
+    {
+      "code": "B.1",
+      "n": 1,
+      "name": "Topic One",
+      "notes": [],
+      "prompts": [
+        "Ask question 1: expect answer 1."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "B.2",
+      "n": 2,
+      "name": "Topic Two",
+      "notes": [],
+      "prompts": [
+        "Ask question 2: expect answer 2."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "B.3",
+      "n": 3,
+      "name": "Topic Three",
+      "notes": [],
+      "prompts": [
+        "Ask question 3: expect answer 3."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "B.4",
+      "n": 4,
+      "name": "Topic Four",
+      "notes": [],
+      "prompts": [
+        "Ask question 4: expect answer 4."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "B.5",
+      "n": 5,
+      "name": "Topic Five",
+      "notes": [],
+      "prompts": [
+        "Ask question 5: expect answer 5."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "B.6",
+      "n": 6,
+      "name": "Topic Six",
+      "notes": [
+        "Bring a prop."
+      ],
+      "prompts": [
+        "Ask question 6: expect answer 6."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "B.7",
+      "n": 7,
+      "name": "Topic Seven",
+      "notes": [],
+      "prompts": [
+        "Ask question 7: expect answer 7."
+      ],
+      "summary": "Synthetic topic summary."
+    },
+    {
+      "code": "B.8",
+      "n": 8,
+      "name": "Topic Eight",
+      "notes": [],
+      "prompts": [
+        "Ask question 8: expect answer 8."
+      ],
+      "summary": "Synthetic topic summary."
+    }
+  ],
+  "trackerRows": [
+    {
+      "rule": "all",
+      "stepIds": [
+        "B.skill-one.4"
+      ],
+      "text": "Skill One, step 4"
+    },
+    {
+      "rule": "all",
+      "stepIds": [
+        "B.skill-two.3"
+      ],
+      "text": "Skill Two, step 3"
+    },
+    {
+      "rule": "all",
+      "stepIds": [
+        "B.skill-three.2"
+      ],
+      "text": "Skill Three, step 2"
+    },
+    {
+      "rule": "all",
+      "stepIds": [
+        "B.skill-four.4"
+      ],
+      "text": "Skill Four, step 4"
+    },
+    {
+      "rule": "all",
+      "stepIds": [
+        "B.skill-five.1"
+      ],
+      "text": "Skill Five, step 1"
+    },
+    {
+      "rule": "all",
+      "stepIds": [
+        "B.skill-six.3"
+      ],
+      "text": "Skill Six, step 3"
+    },
+    {
+      "rule": "all",
+      "stepIds": [
+        "B.skill-seven.2"
+      ],
+      "text": "Skill Seven, step 2"
+    },
+    {
+      "rule": "all",
+      "stepIds": [
+        "B.skill-eight-left.2"
+      ],
+      "text": "Skill Eight Left, step 2"
+    }
+  ],
+  "warmUpSkill": "B.skill-one",
+  "wrapUpSkill": "B.skill-four"
+}
